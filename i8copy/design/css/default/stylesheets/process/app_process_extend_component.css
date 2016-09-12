@@ -1,0 +1,418 @@
+.fwhide{
+    display: none;
+}
+.control-punchforget-hide,.control-fieldwork-hide{
+    display: none;
+}
+.data-punchforget-hide,.data-fieldwork-hide{
+    display: none;
+}
+.control-punchforget-detail,.control-fieldwork-detail {
+    width: 810px;
+}
+.control-punchforget-detail th,.control-fieldwork-detail th {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.control-punchforget-control{
+    text-align:right;
+    padding-right: 60px;
+}
+
+.control-punchforget-data td{
+    padding-left:10px;
+    text-align:left;
+}
+
+.control-punchforget-detail th,.control-fieldwork-detail th {
+    background-color: #EDEDED;
+}
+
+.control-punchforget-body,.control-fieldwork-body,.control-fullmember-body{
+    border: 1px solid #DDD;
+    width:810px;
+}
+
+.control-punchforget-body tr:nth-child(even) td {
+    background-color: #F7F7F7;
+}
+
+.control-fieldwork-operation{
+    width:810px;
+}
+
+
+.control-fieldwork-body tr:nth-child(even) td {
+    background-color: #F7F7F7;
+}
+
+td.fieldwork-container{
+    text-align:right;
+    padding-right:100px;
+}
+
+.popup-punchforget-date{
+    width:190px;
+    height:22px;
+    line-height: 22px;
+}
+
+.popup-punchforget-datacontainer{
+    width:450px;
+    padding:5px;
+    margin:5px;
+    border: 1px solid #DDD;
+}
+
+.popup-punchforget-datacontainer td,.popup-punchforget-datacontainer th,.control-fieldwork-operation td,.control-fieldwork-data td{
+    text-align: left;
+    padding-left:10px;
+    line-height: 36px;
+    height:36px;
+}
+
+.popup-punchforget-control{
+    text-align: right;
+    padding-right:30px;
+    padding-bottom:10px;
+}
+.popup-punchforget-menu{
+    padding:4px 0px;
+    padding-left:10px;
+    height:36px;
+    line-height: 36px;
+}
+ .control-punchforget-detail th {
+    height:36px;
+     line-height: 36px;
+ }
+ .control-punchforget-control{
+     min-height: 32px;
+ }
+.punchforget-addnewrow,.workflow-datagrid-addnewrow,.control-projectapply-additem,.control-projectverify-additem,.control-paymentverify-additem{
+    padding: 0 20px;
+    text-indent: 0;
+    height: 26px;
+    text-align: center;
+    border: none;
+    color: #FFF;
+    background: #47c7ea;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 3px;
+    font-weight: bold;
+    line-height: 26px;
+    display: inline-block;
+}
+.control-projectapply-additem{
+    margin-left:190px;
+}
+.control-payment-container {
+    width:812px;
+}
+td.fieldwork-container{
+    text-align: right;
+}
+
+.popup-punchforget-datacontainer thead {
+    background-color:#ededed;
+}
+
+.popup-punchforget-datacontainer tbody tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+.field-fieldwork-remark{
+    width:584px;
+}
+.control-fieldwork-title{
+    width:120px;
+}
+.control-fieldwork-content input{
+    width:180px;
+}
+
+#fieldwork_startdate, #fieldwork_enddate, .field-fieldwork-remark {
+    height: 26px;
+}
+
+/* 转正控件 */
+
+.control-fullmember-detail {
+    width: 100%;
+}
+
+.control-fullmember-detail tr:nth-child(2n)  {
+    background-color: #f7f7f7;
+}
+
+.control-fullmember-detail .content-display {
+    display: none;
+}
+
+.control-fullmember-detail div.fw_ksntxtbox {
+    margin-top: 3px;
+}
+
+.control-fullmember-detail td {
+    width: 35%;
+    height: 38px;
+    padding: 4px 0px 4px 10px;
+}
+
+.control-fullmember-detail td.fullmember-tr-label {
+    width: 15%;
+}
+
+.control-fullmember-detail .hidden,
+.control-fullmember-detail #fullmember_hyperlink {
+    display: none;
+}
+
+/* */
+
+.control-autocalculate-field li{
+    float: left;
+    min-width: 40px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    margin-right: 10px;
+    padding:0 4px;
+    border-radius: 2px;
+}
+.autocalculate-dragable-field,.autocalculate-dragable-symbol{
+    position:relative;
+    cursor:pointer;
+}
+.autocalculate-delete-btn{
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    background: url('../../images/process/example_bg_icon1.png') 0 0 no-repeat;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none!important;
+    width: 16px;
+    height: 16px!important;
+}
+#autocalculate_design_list li,.autocalculate-ul li{
+    float: left;
+    min-width: 40px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    margin-right: 4px;
+    padding-right: 18px;
+    margin-top: 5px;
+    padding-left:4px;
+}
+.calculate-box .radiolist{
+    padding: 10px;
+}
+.calculate-box .radiolist span{
+    margin-right: 30px;
+}
+.calculate-box  .control-autocalculate-container{
+    margin-bottom: 30px;
+}
+li.autocalculate-dragable-symbol{
+    font-size:20px;
+}
+input.chk-punchforget-checkbox,input.chkall-punchforget-checkbox{
+    height:13px;
+}
+
+/* 项目控件 */
+
+.control-projectapply-container2{
+    width:812px;
+}
+.control-projectapply-detail th,.control-projectverify-detail th,.control-paymentverify-detail th{
+    text-align:left;
+    padding-left: 10px;
+    vertical-align: middle;
+    min-width:60px;
+    background-color: #EDEDED;
+}
+
+.control-project-hide{
+    display: none;
+}
+.control-projectapply-header table,.control-projectapply-header table,.control-projectverify-header table,.control-projectverify-header table,.control-paymentverify-header table,.control-paymentverify-detail {
+    width:100%;
+}
+.control-paymentverify-detail{
+    width:100%;
+}
+.control-paymentverify-body-content{
+    overflow-x:scroll;
+}
+.control-project-popup-operate{
+    min-width:450px;
+    min-height:100px;
+}
+.control-paymentverify-detail th:first-child{
+    width:30px;
+    min-width:30px;
+}
+
+.control-projectapply-operation-fee,.control-paymentverify-operation-fee,.control-projectverify-operation-fee{
+    width:60px;
+}
+.control-projectapply-operation-remark,.control-paymentverify-operation-remark{
+    width:100px;
+    margin-right: 10px;
+}
+
+.control-project-popup-operate th {
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: middle;
+    height:35px;
+    line-height: 35px;
+    min-width: 80px;
+    background-color: #EDEDED;
+}
+
+.control-projectapply-list td,.control-paymentverify-list td,.control-projectverify-list td{
+    padding-left:10px;
+}
+
+.control-project-popup-operate th.control-operation-projectapply-title{
+    width:30px;
+}
+.control-project-popup-operate td {
+height: 35px;
+line-height: 35px;
+text-align: left;
+padding-left: 10px;
+border: none;
+background-color: #fff;
+}
+
+.control-operation-paymentverify-btn{
+    text-align: right;
+    margin-right:40px;
+}
+
+.control-project-apply-hide,.control-project-verify-hide,.control-project-verify-hide,.control-payment-start-hide,.control-payment-hide{
+    display:none;
+}
+.control-popup-show th:first-child{
+    min-width:20px;
+}
+.control-operation-projectapply-list td:first-child{
+    min-width:20px;
+}
+.control-projectapply-detail,.control-projectverify-detail,.control-projectverify-detail{
+    width:100%;
+}
+
+.control-project-apply-budgetinfo,.control-paymentverify-hide,.control-projectverify-hide{
+    display: none;
+}
+.control-project-start-hide{
+    display:none;
+}
+
+.control-project-header-title{
+    width:80px;
+}
+.control-project-header-title,.control-payment-header-title {
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.control-payment-header-field,.control-project-header-field{
+    text-align: left;
+    width:300px;
+}
+
+.control-payment-header-field select,.control-project-header-field select{
+    width:180px;
+}
+.control-paymentverify-additem,.control-projectverify-additem  {
+    margin-right:20px;
+}
+.control-project-popup-operate tr  .control-operation-paymentverify-btn,.control-project-popup-operate tr .control-operation-projectverify-btn,.control-project-popup-operate .control-operation-projectapply-btn{
+    text-align:right;
+    padding-right:20px;
+}
+.control-project-popup-operate{
+    /*margin:0 5px;*/
+}
+.payment-projectapply-main-usage{
+    width:178px;
+}
+.select-default-hide{
+    display:none;
+}
+.select2-default-hide{
+    display: none;
+}
+
+/*帮涛表哥加点样式（表格边框）*/
+
+.control-paymentverify-container, .control-projectapply-container, .control-projectverify-container{
+    border: 1px solid #dfdfdf;
+    width:810px;
+}
+.control-payment-verify-title, .control-project-verify-title{
+    padding-left: 10px;
+}
+.control-projectverify-additem{
+    float: right;
+    margin-right: 40px;
+}
+/*, .control-projectapply-body* , .control-projectverify-body-content
+.control-paymentverify-body-content{
+    border: 1px solid #dfdfdf;
+    margin-top: 10px;
+    overflow-y:auto;
+}*/
+
+.control-paymentverify-body-content tr, .control-projectverify-body-content tr, .control-projectapply-body tr{
+    border-bottom: 1px solid #dfdfdf;
+}
+.control-payment-verify-executedetail{
+    display: none;
+}
+
+.control-payment-verify-executedetail table{
+    width:812px;
+}
+.control-payment-verify-executedetail th{
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: middle;
+    min-width: 60px;
+    background-color: #EDEDED;
+}
+.control-payment-verify-executedetail td{
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: middle;
+    min-width: 60px;
+}
+.cb_col_1[ctype="contentMark"] .ctrltxt{width: 910px;padding-left: 40px;}
+.proc_detail_center_wrap .control-paymentverify-header{
+    display: none;
+}
+
+.control-datediff-first,.control-datediff-second {
+    width:228px;
+}
+.doc_detail_center_mainXXX .control-projectapply-container, .doc_detail_center_mainXXX .control-projectverify-container,.doc_detail_center_mainXXX .control-paymentverify-container{
+    visibility: hidden;
+}
+#ControlContainer .control-fullmember-container .filedetails{
+    display: none;
+}

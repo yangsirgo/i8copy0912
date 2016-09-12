@@ -1,0 +1,710 @@
+.vacation-bg{
+    background-image: url("../images/vacation_bg.png");
+    background-repeat: no-repeat;
+}
+.vacation-bg.inav{
+    vertical-align: -4px;
+    margin: 0px 15px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+.vacation-bg.inav1{
+     background-position: 0px -9px;
+ }
+.vacation-bg.inav2{
+    background-position: 0px -54px;
+}
+.vacation-bg.inav3{
+    background-position: 0px -99px;
+}
+.vacation-bg.inav4{
+    background-position: 0px -142px;
+}
+.vacation-bg.inav5{
+    background-position: 0px -186px;
+}
+.vacation-bg.inav6{
+    background-position: -3px -228px;
+}
+.vacation-bg.btn-save-one{
+    background-position: 0px -378px;
+    padding: 0px 20px;
+}
+.vacation-control-adjust-value{
+    text-align: center;
+}
+
+.vacation-bg.btn-edit-one{
+    background-position: 0px -420px;
+    padding: 0px 20px;
+}
+
+.vacation-bg.add {
+    width: 35px;
+    height: 25px;
+    background-position: 0px -458px;
+    display: inline-block;
+    vertical-align: -7px;
+}
+.sub-nav{
+    border:1px solid #e6e6e6;
+    border-bottom:2px solid #47c7ea;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.sub-nav .nav-item{
+    display: block;
+    float: left;
+    color: #000;
+    margin: 0 42px 0 20px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+.sub-nav .nav-item em{
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+.sub-nav .nav-item em.em1{
+    border:6px solid;
+    position: absolute;
+    border-color:transparent  transparent #47c7ea transparent;
+    left: 23px;
+    border-radius: 1px;
+}
+.sub-nav .nav-item em.em1.emextend
+{
+    left:37px;
+}
+.sub-nav .nav-item em.em2{
+    border:6px solid;
+    position: absolute;
+    border-color:transparent  transparent #f5f5f5 transparent;
+    top: -4px;
+    left: -6px;
+    border-radius: 1px;
+}
+.sub-nav .nav-item.current{
+    color: #47c7ea;
+}
+.sub-nav .nav-item.current em{
+    display: block;
+}
+.vacation-bg.hasitems{
+    background-position: 210px -495px;
+}
+.vacation-select{
+    width:200px;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 1px 1px 1px 1px #e6e6e6;
+    background: #fff;
+    position: absolute;
+}
+.vacation-select .items{
+    height: 36px;
+    line-height: 36px;
+}
+.vacation-c-panel{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+.control-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-indent: 25px;
+    color: #000;
+}
+
+.vacation-c{
+    margin: auto;
+    width: 997px;
+    height: 362px;
+    position: relative;
+    overflow: hidden;
+}
+.vacation-c .a1{
+    position: absolute;
+    right: 69px;
+    top: 9px;
+    font-weight: bold;
+}
+.vacation-c .a2{
+    position: absolute;
+    top: 70px;
+    left: 134px;
+}
+.vacation-c .a3{
+    position: absolute;
+    top: 248px;
+    right: 134px;
+}
+.vacation-c .a4{
+    position: absolute;
+    top: 286px;
+    left: 416px;
+    font-weight: bold;
+}
+.vacation-c .a5{
+    position: absolute;
+    top: 328px;
+    left: 130px;
+    font-weight: bold;
+}
+.vacation-control{
+    background: url("../images/vacation_control.png") 0 0 no-repeat;
+}
+
+.vacation-remove{
+    background: url("../images/vacation_remove.png") 0 0 no-repeat;
+}
+.vacation-add{
+    background: url("../images/vacation_add.png") 0 0 no-repeat;
+}
+
+.vacation-stas{
+    position: absolute;
+    top: 79px;
+    left: 10px;
+}
+.vacation-stas .em1{
+    position: relative;
+    border: 8px solid #f5f5f5;
+    border-color: transparent transparent #f5f5f5 transparent;
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 10;
+    left: 190px;
+}
+
+.vacation-stas .content{
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 1px 1px #e6e6e6;
+    background: #fff;
+    width: 225px;
+}
+.vacation-stas .content .stas-title{
+    background: #f5f5f5;
+}
+.stas-table{
+    width: 100%;
+}
+.stas-table thead td{
+    background: #f5f5f5;
+    font-weight: bold;
+    color: #000;
+}
+.stas-table td{
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+}
+.vacation-content{
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 15px;
+    background: #fff;
+    line-height: 30px;
+    color: #000;
+}
+.vacation-content .v-title{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+.vaca-line{
+    padding: 8px 0; overflow: hidden;
+}
+.view-desc{
+    width: 20px;
+    height: 20px;
+    background-position: 0px -330px;
+    display: block;
+}
+.comment-panel{
+    position: absolute;
+    width: 200px;
+    background-color: #fff1d4;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    color: #714c00;
+    left: 30px;
+    top: -30px;
+    line-height: 25px;
+    padding: 15px;
+    opacity: 0.8;
+    color: #fff1d4;
+}
+.comment-panel2{
+    position: absolute;
+    width: 200px;
+    border-radius: 4px;
+    color: #714c00;
+    left: 30px;
+    top: -30px;
+    line-height: 25px;
+    padding: 15px;
+}
+.comment-panel em {
+    border: 6px solid;
+    border-color: transparent transparent transparent #f4f4f4;
+    position: absolute;
+    right: 0;
+}
+.comment-panel em.em1 {
+    right: -12px;
+    top: 50%;
+}
+.comment-panel em.em2 {
+    border-left-color: #fff1d4;
+    top: -7px;
+    right: -5px;
+}
+.update-set{
+    padding: 15px;
+    background-color: #fff;
+    overflow: hidden;
+    width: 420px;
+}
+.update-set-line{
+    clear: both;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.app-table-list table thead{
+    background-color: #f5f5f5;
+}
+table.border-e6 td{
+    border: 1px solid #e6e6e6;
+    padding-left: 15px;
+}
+thead tr.no-blod td{
+    font-weight: normal;
+}
+.vacation-bg.vaca-detail{
+    padding: 2px 0px 2px 24px;
+    background-position: 0px -288px;
+}
+
+.update-vaca-pop{
+    width: 680px;
+    padding: 15px;
+    background-color: #fff;
+}
+.set-num{
+    margin: 3px;
+    overflow: hidden;
+}
+
+.set-num span,.vacation-control-batch-adjust-subtract,.vacation-control-batch-adjust-add{
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-color: #ededed;
+    color: #47c7ea;
+    cursor: pointer;
+    font-weight:bolder;
+    text-align: center;
+    line-height: 33px;
+    font-size: 16px;
+    border: 1px solid #dfdfdf;
+}
+.set-num span.m,.vacation-control-batch-adjust-subtract{
+    background-position: 4px -520px;
+}
+.set-num span.p,.vacation-control-batch-adjust-add{
+    background-position: 4px -556px;
+}
+
+.vacation-popup-change-title{
+    display: inline-block;
+    width:200px;
+}
+
+.vacation-vacationtype-td{
+    width:200px;
+}
+
+.vacation-maintain-reason{
+    width:610px;
+}
+.vacation-vacationtype{
+    width: 120px;
+}
+.vacation-description-value{
+    width: 120px;
+}
+.control-vacation-title,.control-vacation-detail th{
+    font-weight: bold;
+    font-size:12px;
+    color:#000000;
+}
+.control-vacation-title{
+    padding-left:8px;
+    padding-right:5px;
+}
+.control-vacation-detail th {
+    background-color:#EDEDED;
+}
+
+.control-vacation-detail th{
+    text-align: center;
+}
+.control-vacation-container{
+    /*padding-left:25px;*/
+  /*  padding:10px 25px;*/
+}
+.control-vacation-header{
+    border:1px solid #DDDDDD;
+    overflow:hidden;
+}
+
+.vacation-header-type{
+    width:60px;
+}
+.vacation-header-time{
+    width:160px;
+}
+
+
+.control-vacation-header div{
+    height:42px;
+    line-height: 42px;
+}
+.control-vacation-detail th, .control-vacation-detail td{
+    min-width:60px;
+    vertical-align: middle;
+    /* text-align: center;*/
+}
+.control-vacation-detail th{
+    text-align: center;
+}
+
+
+.control-vacation-detail tr{
+    height:40px;
+}
+
+.vacation-detail-duration{
+
+    width:60px;
+}
+
+.vacationsummary_overtime .vacation-detail-remark{
+    width:320px;
+}
+
+.control-vacation-body {
+    color: #000;
+    border: 1px solid #DDD;
+    margin-top: -1px;
+}
+
+.control-vacation-list td,.control-vacation-detail th{
+    text-align: left;
+    padding-left:10px;
+}
+
+.control-vacation-container{
+    width:812px;
+}
+
+.control-vacation-header .timeset{
+    margin-right:10px;
+}
+
+.control-vacation-operate .operatrow td{
+
+    text-align:left;
+}
+
+tbody.control-vacation-operate td {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.vacation-judge-tips-exceed{
+    color:red;
+}
+
+.vacation-judge-tips-allow{
+    color:green;
+}
+
+.vacation-maintain-reason{
+    min-width: 604px;
+}
+
+th.vacation-header-applytime{
+    width:90px;
+}
+
+.vacation-body-operate{
+    text-align:center;margin:0px;padding:0px;
+}
+
+.control-vacation-unit{
+    font-weight: bold;
+}
+.w-70{
+    height: 33px;
+}
+
+.vacation-maintain-reason{
+    width:604px;
+}
+
+.date-bg{
+    background-image: url('../../default/images/icon-mid.png')!important;
+    background-repeat: no-repeat!important;
+    background-position: right -1070px!important;
+}
+.date-bg.checked{
+    background-position: right -1000px!important;
+}
+
+.vacation-table-data thead td{
+    text-align: center!important;
+}
+td.vacation-remian-username{
+
+    width:60px;
+    min-width:60px;
+}
+td.vacation-remain-orgname{
+    width:100px;
+    min-width:100px;
+    text-align:center;
+}
+.vacation-remain-orgname-header{
+    width:100px;
+}
+
+td.vacation-remian-username-header{
+    width:60px;
+}
+
+.vacation-table-data{
+    table-layout: fixed;
+    width:auto;
+
+}
+.border-e6 td, .app-table-list table td:first-child, table.border-e6 td{
+    padding-left:0;
+    text-align: center;
+}
+
+.app-table-list{
+    margin-right: 6px;
+}
+
+
+.app-checkbox {
+    background-position: -3px -9470px;
+    width: 14px;
+    height: 14px;
+    line-height: 18px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    cursor:pointer;
+}
+
+.app-checkbox-text{
+    cursor:pointer;
+}
+
+.design-bg-icons3 {
+    background-image: url('../images/process/design_bg_icons3.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.design-bg-icons3.checked{ background:url('../images/process/design_bg_icons3.png') no-repeat -5px -948px;}
+#vacation_item,.vacation-detail-duration{
+    width:100px;
+}
+
+.vacation-header-operate{
+    width:60px;
+}
+.vacation-header-type{
+    width:100px
+}
+.vacationsummary_data .vacation-detail-remark{
+    width:436px;
+}
+
+.vacationsummary_overtime .vacation-header-amount,.vacationsummary_cancelvacation .vacation-header-amount {
+    display: none;
+}
+
+.vacationsummary_overtime .vacation-header-available,.vacationsummary_cancelvacation .vacation-header-applytime{
+    display: none;
+}
+
+.vacation-datatype-hide{
+    display: none;
+}
+
+.control-vacation-operate .operatrow input[type=text]{
+   height:26px;
+    line-height: 26px;
+}
+
+.control-vacation-operate .operatrow td{
+    min-width:60px;
+    padding-left:4px;
+    padding-right:4px;
+}
+.control-vacation-operate{
+    border-top:1px solid #DDD;
+    width:100%;
+}
+
+td.vacation-operation-title{
+    width:80px;
+}
+.vacation-detail-duration{
+    width:98px;
+}
+.vacationsummary_cancelvacation #vacation_item{
+    width:70px;
+}
+.control-vacation-operate .vacation-detail-remark{
+    width:100%;
+}
+.control-vacation-cancelvacation .control-vacation-operate .vacation-detail-remark{
+    width:264px;
+}
+
+
+ td.vacation-operation-showexist{
+     width:120px;
+ }
+
+.vacation-datetype-hide{
+    display: none;
+}
+
+.control-vacation-detail{
+    clear:both
+}
+
+tr.operatrow td:first-child{ padding-left:10px;}
+
+.update-vaca-pop select{
+
+    height:20px\9;
+    line-height:20px\9;
+    padding:5px 0\9;
+    ling-height:20px\9;
+    min-height:20px\9;
+
+}
+
+.vacationsummary_data .vacation-header-amount{
+    display: none;
+}
+
+.vacation-begindate,.vacation-enddate{
+    background: url('../images/process/example_bg_icon1.png') right -638px no-repeat!important;
+}
+
+.vacationsummary_overtime .vacation-header-type{
+    width:120px;
+}
+.vacationsummary_overtime .vacation-header-applytime{
+    width:100px;
+}
+
+.vacation-info-detail.datagrid td{
+    text-align: left;
+    padding-left:10px;
+}
+
+
+
+.operatrow .vacation-operation-title ,.operatrow .vacation-operation-remark {
+    width:90px;
+}
+.vacation-begindate-cancelvacation,.vacation-enddate-cancelvacation{
+    width:168px;
+ }
+.control-vacation-operate .operatrow td.vacation-operation-data,.control-vacation-operate .operatrow td.vacation-operation-date{
+   width:140px;
+}
+
+.control-payment-detail th{
+    text-align: left;
+    padding-left:10px;
+    line-height: 16px;
+}
+
+.vacation-addnewrow{
+    margin-left:10px;
+}
+.vacation-control-begin-container,.vacation-control-end-container{
+    width:168px;
+}
+.vacation-control-begin-container input,.vacation-control-end-container input{
+    width:188px;
+}
+.control-vacation-operate .operatrow td.vacation-operation-save {
+    text-align:right;
+    padding-right:18px;
+}
+.control-vacation-overtime .operatrow td:nth-child(2){
+    width:150px;
+}
+.control-vacation-summary .operatrow td:nth-child(2){
+    width:150px;
+}
+.control-vacation-list tr:nth-child(even) td {
+
+    background-color: #F7F7F7;
+}
+.control-vacation-total .vacation-row-amount{
+    padding-left:10px;
+}
+
+.vacation-content .vacation-bg.btn-edit-one,.bdradius .vacation-bg.btn-edit-one{
+    background-position: 0px -420px!important;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* IE10-specific styles go here */
+    .update-vaca-pop select{
+        height:25px;
+        line-height: 25px;
+    }
+}
+
+.vacation-batch-adjust-table{
+    max-height: 450px;
+    overflow-y:scroll;
+}
+
+.vacation-adjust-title{
+    width:70px;
+    display: inline-block;
+}
+
+.vacation-content .app-table-list .app-checkbox[field="IsVacation"], .vacation-content .app-table-list .app-checkbox[field="IsCancelVacation"]{
+    margin-left: 10px;
+}
+.vacationsummary-popup-tips{
+    line-height: 24px;
+    color: #808080;
+}

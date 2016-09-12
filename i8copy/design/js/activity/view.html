@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" />
+    <title></title>
+    <!--<script type="text/javascript"> mxBasePath = "https://res.i8xiaoshi.com/workflow/default/javascripts/plugins/mxGraph/src";</script>-->
+    <script type="text/javascript"> mxBasePath = "../plugins/mxGraph/src";</script>
+    <script type="text/javascript" src="../plugins/mxGraph/src/js/mxClient-min.js"></script>
+    <script  src="../i8plugins-core.min.js"></script>
+
+</head>
+<body>
+<div id="div_view"></div>
+<div id="div_template" style="display:none"></div>
+</body>
+</html>
+<script type="text/javascript">
+    var viewHtml = '';//设计图XML
+    var model = '';//预览模式
+    var isTemplateAct = 'true';//是否是模板库中审批链
+    if(viewHtml == '')
+        viewHtml = parent.diagramMetaData;
+    if(model == "template" && isTemplateAct == 'true') {//模板流程预览  模板库流程设置
+        $("#div_template").html(viewHtml);
+
+        var startX = $("#div_template").find("StartActivity").find("mxGeometry").attr("x");
+        var startY = $("#div_template").find("StartActivity").find("mxGeometry").attr("y");
+        if(startX != undefined){
+            viewHtml = viewHtml.replace('x="'+startX+'"','x="0"');
+            viewHtml = viewHtml.replace('y="'+startY+'"','y="17"');
+        }
+        var endY = $("#div_template").find("EndActivity").find("mxGeometry").attr("y");
+        if(endY != undefined)
+            viewHtml = viewHtml.replace('y="'+endY+'"','y="17"');
+
+        $("#div_template").find("mxGeometry").each(function(){
+            var y = $(this).attr("y");
+            if(y != undefined && $(this).parents("StartActivity").length == 0 && $(this).parents("EndActivity").length == 0)
+                viewHtml = viewHtml.replace('y="'+y+'"','y="8"');
+        });
+    }
+    var js_wf_DesignXmlDom = mxUtils.parseXml(viewHtml);
+    //获取面板容器
+    var js_wf_Container = document.getElementById("div_view");
+    //创建图形
+    var js_wf_model = new mxGraphModel();
+    var js_wf_graph = new mxGraph(js_wf_Container, js_wf_model);
+    //添加图形展示样式
+    //js_wf_graph.getStylesheet().styles.defaultVertex.fontColor = '#ffffff';
+    var wf_style = js_wf_graph.getStylesheet().getDefaultEdgeStyle();
+    wf_style[mxConstants.STYLE_ROUNDED] = true;
+    wf_style[mxConstants.STYLE_EDGE] = mxEdgeStyle.ElbowConnector;
+    js_wf_graph.alternateEdgeStyle = 'elbow=vertical';
+    js_wf_graph.convertValueToString = function (cell)//返回单元格的值
+    {
+        return cell.getAttribute('value') == null ? cell.value : cell.getAttribute('value');
+    };
+    //加载图形
+    var js_wf_decoder = new mxCodec(js_wf_DesignXmlDom);
+    js_wf_decoder.decode(js_wf_DesignXmlDom.documentElement, js_wf_graph.getModel());
+    js_wf_graph.enabled = false; //禁用，仅供查看
+    if(model != "template") {//不等于模板选择模式
+        var wf_height = 0;
+        if ($.browser.msie) {//IE
+            var js_wf_div = $(js_wf_Container).children().first();
+            wf_height = parseInt($(js_wf_div).css("min-height")) + 30;
+        }
+        else
+            wf_height = js_wf_Container.offsetHeight + 30;
+        setWidthHeight("1022px", wf_height);
+    }
+    function setWidthHeight(width, height) {
+        $(parent.document.getElementById("div_mxGraphView")).css("overflow-y", "hidden");
+        $(parent.document.getElementById("div_mxGraphView")).css("height", height);
+        $(parent.document.getElementsByTagName("iframe")).css("height", height);
+        $(js_wf_Container).css("height", height);
+        $(parent.document.getElementById("div_mxGraphView")).css("width", width);
+        $(parent.document.getElementsByTagName("iframe")).css("width", "1140px");
+        $(js_wf_Container).css("width", width);
+    }
+</script>

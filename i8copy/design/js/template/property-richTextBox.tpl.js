@@ -1,0 +1,1 @@
+define("./js/template/property-richTextBox.tpl", [], '<div class="boxrow">\n	<div class="brtt"><span class="span_bfieldTxt">默认值：</span></div>\n	<div class="brbx"><input type="text" id="txt_defaulttxt" class="txtboxcs" value=""/></div>\n</div>');

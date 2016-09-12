@@ -1,0 +1,602 @@
+/* CSS Document */
+.btm_bottons_area_approve{padding-bottom:20px}
+.btn_approve_agree,.btn_approve_disagree,.rd_id_Deny_continue{border:none;background:url(../../../images/process/process_btn.png); width:86px; height:30px; color:#fff; display:inline-block; margin-right:20px; font-size:15px; cursor:pointer; text-align:center; line-height:30px;}
+.approveDialogTitle{background:#E3E7E8;height:30px;position:relative}
+.approveDialogTitle .ad_title{position:absolute;left:10px;top:5px;display:block}
+.approveDialogTitle .ad_close{position:absolute;right:10px;top:5px;display:block;cursor:pointer}
+.apdlbox{padding:10px;padding-bottom:0px}
+.apdlbox .apdlbox_row{overflow:hidden;padding-bottom:10px}
+.apdlbox .apdlbox_row_title{text-align:right;padding-right:5px;float:left;line-height:25px;width:60px;}
+.apdlbox .apdlbox_row_con{text-align:left;float:left}
+#div_CommonProc {max-height: 300px;overflow-y: auto;}
+
+
+.btn_approve_addsigup,.btn_approve_redirectup{border:none;background:url(../../../images/process/process_btn.png) no-repeat 0 -38px;font-size:12px;color:#575E6E; width:86px; height:30px; display:inline-block; margin-right:20px; cursor:pointer; text-align:center;line-height:30px;cursor:pointer}
+.div_sigup_addorredirect{display:none}
+.app_processDesign_nav{ line-height:30px; font-size:14px;}
+.app_processDesign_nav span{ margin:0px 3px;}
+.app_processDesign_nav_sign{ font-size:16px; font-family: 微软雅黑; color:#007FBA;}
+.app_process_pub_btn{ background:url(../../../images/process/process_pub_btn.png);color: #FFFFFF; cursor: pointer; display: block; font-size: 16px; font-weight: bold; height: 30px; line-height: 30px; margin-right: 30px; margin-top: 10px; text-indent:40px; vertical-align: middle; width: 126px;}
+.app_process_pub_optionbtn{ background:url(../../../images/process/process_manage.png) no-repeat;color:#5AACD5; cursor: pointer; display: block; font-size: 14px; font-weight: bold; height: 18px; line-height: 18px; margin-right: 15px; margin-top: 15px; text-indent:18px;vertical-align: middle; width: 50px;}
+.app_process_pub_optionbtn:hover{ text-decoration:none;color:#5AACD5;}
+.app_process_pub_backbtn{ background:url(../../../images/process/process_back.png) no-repeat;color:#5AACD5; cursor: pointer; display: block; font-size: 14px; font-weight: bold; height: 18px; line-height: 18px; margin-right: 15px; margin-top: 15px; text-indent:18px;vertical-align: middle; width: 50px;}
+.app_process_pub_backbtn:hover{ text-decoration:none;color:#5AACD5;}
+.app_process_pub_btn:hover{ color:#fff;}
+
+/*流程管理*/
+.app_processDesign_menu{ border-bottom:2px #017FBA solid; font-size:12px; margin-top:10px;}
+.app_processDesign_menu a{ width:60px; text-align:center; margin-left:10px;}
+.app_processDesign_listbody_open{ background:#F5F5F5; font-size:12px; line-height:27px; border-top:1px solid #E4E6E8;}
+.app_processDesign_lists{ border:1px solid #E4E6E8; font-size:14px; width:788px; line-height:35px; margin-top:10px; text-align:center;}
+.app_processDesign_listhead{ background:#F5F5F5; color:#575E6D; font-weight:bold; }
+.app_processDesign_listhead td{ vertical-align: middle;}
+.app_processDesign_listbody{ border-top:1px solid #E4E6E8; font-size:12px;}
+.app_processDesign_lists_th{ width:30px;}
+.app_process_threemenu_firstopen{ background:url(../../../images/process/threemenu_bg.png) no-repeat 10px -25px; background-color:#F5F5F5; cursor:pointer;}
+.app_process_threemenu_middleopen{ background:url(../../../images/process/threemenu_bg.png) no-repeat 10px -69px; background-color:#F5F5F5;}
+.app_process_threemenu_lastopen{ background:url(../../../images/process/threemenu_bg.png) no-repeat 10px -110px; background-color:#F5F5F5;}
+.app_process_threemenu_firstclose{ background:url(../../../images/process/threemenu_bg.png) no-repeat 10px 10px; cursor:pointer; }
+
+/*我的待办流程*/
+.app_myprocess_head{ margin-top:15px;}
+.app_myprocess_head_title{ font-size:16px; font-weight:bold;}
+.app_myprocess_head_title_two{ font-size:14px; font-weight:bold; border-bottom:2px solid #E0E3E6;}
+.app_process_type_name{ font-weight: bold; color: #333; font-size: 14px; }
+.app_process_array_panl{ margin-bottom: 10px;}
+.app_process_name_link{ display: inline-block; width: 120px; text-align:left; padding-left: 20px; line-height: 25px;}
+
+/*工作流*/
+.app_processDesign_lists2{border:1px solid #B6B6B6; font-size:14px; width:778px; line-height:30px; text-align:center; border-top:1px solid #007FBA; }
+.app_processDesign_vacation_table{font-size:14px; width:780px; line-height:30px; text-align:center; border-top:1px solid #007FBA; }
+.app_processDesign_vacation_table td{border-left:1px solid #E2E5E7; border-bottom:1px solid #E2E5E7;}
+.app_processDesign_vacation_table th{ text-align:center; background:rgb(245,245,245); height:45px; line-height:45px; font-weight: bold;}
+.app_processDesign_vacation_orgname{width: 100px;white-space: nowrap;display: block;overflow: hidden;text-overflow: ellipsis;}
+.app_span_asc{ background:url(../../../images/message/com_detial_ren_down.png) no-repeat 54px 4px; padding-right:15px; cursor:pointer;}
+.app_processDesign_add_vacation_table{width:80%; text-align:center; border:1px solid #E2E5E7; margin:10px 10px 5px 30px;}
+.app_processDesign_add_vacation_table td{border-left:1px solid #E2E5E7; border-bottom:1px solid #E2E5E7; height:20px; line-height:20px;}
+.app_processDesign_add_vacation_table input{width:100px; height:20px; border:0px;}
+
+.app_span_desc{background:url(../../../images/message/message_order_bg.png) no-repeat 39px -27px; padding-right:10px; cursor:pointer}
+.app_span_time_desc{background:url(../../../images/message/message_order_bg.png) no-repeat 52px -27px; padding-right:10px; cursor:pointer}
+
+.app_span_type{background:url(../../../images/message/com_detial_ren_down.png) no-repeat 27px 4px; padding-right:15px; cursor:pointer;}
+.app_span_type_selects{ max-height:260px; max-width:150px; overflow-y:auto; overflow-x:hidden; padding-bottom:5px;}
+.app_span_type_selects input{ vertical-align:middle; margin-right:5px;}
+.app_span_type_selects p{line-height:25px;}
+.app_process_lists_username{ margin:0px 5px;}
+.app_workflow_lists_title_length{width:280px;white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis;}
+.app_workflow_lists_title_lengths{width:100px;white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis;}
+
+/*新建流程*/
+
+.app_pubprocess_panl{ width:800px;/* margin:auto; padding:9px;*/margin-bottom:5px;}
+.app_pubprocess_panl{ width:100%;/* margin:auto; padding:9px;*/margin-bottom:5px;}
+.app_pubprocess_panl input[type=text]{padding:0 5px;outline:none;min-height:19px;}
+.app_pubprocess_tb{ /*background:#fff; padding:15px 5px;*/}
+.app_pubprocess_head_box_div{padding-left:10px;}
+.app_pubprocess_head{ padding:10px 0px; border-bottom:4px solid #F3F3F3;width:100%;clear:both}
+
+.app_pubprocess_head_title{ font-size:20px; font-weight:bold; margin-top:0px; margin-left:0px;}
+.app_pubprocess_return_div{width:960px;margin:0 auto;background: url(../../../images/group/gantanhao.png) no-repeat 10px 6px;background-color: #FFF7B1;color: #575E6D;border-radius: 3px;height: 25px;line-height: 30px;padding-left: 30px;padding-right: 10px; display:none;position:relative;}
+.app_pubprocess_content_tips{ padding:15px 35px;}
+.app_pubprocess_content{ margin-bottom:10px; padding-bottom:10px;}
+.app_blue_border_bottom{ border-bottom:1px solid #017FBA;}
+.app_blue_border_top{ /*border:1px solid #D6ECF6;*/border:0px solid #e2e2e2; margin:0px 19px;}
+
+.app_pubprocess_content_topic{ font-size:14px; margin: 0px 5px; padding:10px 0px;}
+.app_pubprocess_content_tr{ line-height:25px; padding:5px 0px;}
+.app_pubprocess_content_tr_title{ display:inline-block; width:100px; text-align:right; vertical-align:top}
+
+.app_pubprocess_content_text{ font-size:14px; border-top:none; padding:10px 0px 0px 0px;}
+.app_pubprocess_content_text_text{ width:450px; height:80px; display:block;}
+
+.app_pubprocess_content_append{ font-size:14px; /*border:1px solid #fff;*/ margin:0px 0px; padding:0px 0px 5px 0px;}
+.app_pubprocess_content_append_attachment{background:url(../../../images/message/attachment.png) no-repeat center; display:inline-block; width:15px; height:20px; cursor:pointer;}
+.app_pubprocess_content_selectpanl{margin-left:100px;}
+.app_td_add_approvemen{ text-indent:0px; vertical-align:middle; padding: 4px 0;}
+.app_pubprocess_content_appendprocess{ background:url(../../../images/process/appeng_process.png) no-repeat center; width:20px; height:25px; display:inline-block; vertical-align:middle;}
+
+.app_pubprocess_content_bottom{ text-align:center; margin:20px;padding-bottom:20px;position:relative;}
+.app_pubprocess_content_submit,.app_pubprocess_content_cancel{ background:url(../../../images/process/process_btn.png); width:86px; height:30px; color:#fff; display:inline-block; margin-right:20px; font-size:15px; cursor:pointer; text-align:center; line-height:30px;}
+/*btn_gray_90m29.png*/
+.app_pubprocess_content_bottom .btm_bottons_area_startnew .app_pubprocess_content_submited .btm_bottons_area_execution{width:114px;height:30px;background:url(../images/mycenter/mycenter_btn6.png);text-decoration:none;color:#888;display:inline-block; margin-right:20px; font-size:15px; cursor:pointer; text-align:center; line-height:30px;}
+.btm_bottons_area_edit{text-decoration:none;color:#888;display:inline-block; margin-right:20px; font-size:15px; cursor:pointer; text-align:center; line-height:30px;}
+.btn50x26_disable{background:url(../../../images/home/queding_disable.png) no-repeat center center}
+.app_pubprocess_content_submit:hover{ text-decoration:none;}
+.app_pubprocess_content_cancel:hover{ text-decoration:none;}
+.app_pubprocess_content_cancel{ background-position: 0px -38px; color:#575E6E}
+.app_pubprocess_content_linkpreview{ font-size:14px;}
+.app_pubprocess_content_charge_text{ width:400px;}
+.app_pubprocess_panl .fw_ksninput input[type="text"]{height:20px}
+.app_pubprocess_attachment_btncss{background:url(../../../images/message/attachment.png) 5px 3px no-repeat;width:54px;height:25px;display:block;padding-left: 20px;line-height: 23px;}
+.app_pubprocess_execute_attachment_btncss{background:url(../../../images/message/attachment.png) 5px 3px no-repeat;width:50px;height:25px;padding-left: 20px;line-height: 23px;}
+.app_pubprocess_relevance_btncss{background:url(../../../images/message/relevance.png) 0px 14px no-repeat;width:50px;height:25px;display:block;padding-left: 20px;line-height: 36px;}
+.app_pubprocess_content_attachment_upload,.app_pubprocess_content_attachment_upload_simple{position:relative;overflow:hidden;min-height:25px}
+.app_pubprocess_content_attachment_upload object{/*width: 70px;height: 25px;cursor: pointer;position: absolute;left: 0px;top: 0px;*/margin-top:5px}
+.app_pubprocess_content_attachment_upload_simple object{width: 70px;height: 25px;cursor: pointer;position: absolute;left: 0px;top: 0px;margin-top:5px}
+.app_pubprocess_execute_attachment_btncss object{width: 70px;height: 25px;cursor: pointer;position: absolute;left: 70px;top: 225px;}
+.app_pubprocess_content_attachment_img{ background:url(../../../images/message/file_bg.png); width:27px; height:36px; margin-right:10px; display:block; font-size:8px; color:#007FBA; line-height:35px; text-align:center; margin-top:3px;}
+.app_attachment_span_thumb{width:65px; height:65px; display:block;cursor:pointer;}
+.app_pubprocess_attachment_file_list{overflow:hidden}
+.app_pubprocess_content_attachment_dl{font-size:12px;position:relative; line-height:22px;display:block;float:left;width:400px;padding:5px;border:solid 1px #f5f5f5}
+.app_pubprocess_content_attachment_dl:hover{border:solid 1px #eee;background:#faf7f7}
+.app_pubprocess_content_attachment_dl dd{display:block;float:left;padding:5px;width:300px;overflow:hidden}
+.app_pubprocess_content_attachment_dl dd p{white-space:nowrap}
+.app_pubprocess_content_attachment_dl .app_attachment_file_bclose{width:15px;height:15px;position:absolute;right:3px;top:3px;display:block;background:url("../images/search/icon_cross.png") no-repeat scroll 0 center transparent;cursor:pointer}
+.app_pubprocess_content_attachment_dl .app_attachment_file_bclose:hover{background:url("/resource/default/zh-cn/images/search/icon_cross_hover.png") no-repeat scroll 0 0 transparent}
+.app_pubprocess_attachment_file_list .disa a{color:gray;text-decoration:none;cursor:text}
+.app_pubprocess_content_attachment_shuxian{color: #C8CACC; margin: 0 10px;}
+.app_pubprocess_content_append_dl{ font-size:12px;width:710px; border:1px solid #E1E5E8;background:#FFF; border-top:none; margin-right:20px;}
+.app_pubprocess_content_append_dl dd{ border-top:1px solid #E1E5E8; line-height:35px; }
+.app_pubprocess_content_append_dl dd .approvels_item_title{background:#F0F0F0; padding-left:10px;border-bottom:solid 1px #E1E5E8}
+.app_pubprocess_content_append_dl dd .approvels_item_content{background:url("../../../images/workflow//approvelsch.png") no-repeat 10px 5px;line-height:25px;padding:5px 0px 5px 30px}
+
+.attachment_fname{width:200px;}
+.app_pubprocess_content_append_name{ width:140px; display:inline-block;font-weight:bold}
+.app_pubprocess_content_append_action{width:180px;display:inline-block;font-weight:bold}
+.app_pubprocess_content_append_opinion{ width:90px; display:inline-block;}
+.app_pubprocess_content_append_time{ width:150px; text-align:right;display:inline-block;}
+.app_pubprocess_content_append_votereport{ padding-left:18px;background:url("../../../images/workflow//tongji.png") no-repeat 16px 16px;background-position:left}
+.app_appprocess_lable_type{margin-right:10px;}
+.app_appprocess_lable_type input{ vertical-align:middle; margin-right:5px;}
+/*span.ppt, span.world, span.pdf, span.excel*/
+/*span.ppt*/
+span.app_wf_attachment_ppt{ background:url(../../../images/group/ppt_bg.png) no-repeat center center;}
+/*span.world*/
+span.app_wf_attachment_word{background:url(../../../images/group/world_bg.png) no-repeat center center;}
+/*span.excel*/
+span.app_wf_attachment_excel{background:url(../../../images/group/excel_bg.png) no-repeat center center;}
+/*span.pdf*/
+span.app_wf_attachment_pdf{background:url(../../../images/group/pdf_bg.png) no-repeat center center;}
+/*span.txt*/
+span.app_wf_attachment_txt{background:url(../../../images/group/txt_bg.png) no-repeat center center;}
+/*打印预览*/
+.app_margin_top_out1px{ margin-top:-1px;}
+.app_process_preview_table{line-height:35px; font-size:14px; border-collapse:collapse; width:100%; border:1px solid #999999;}
+.app_process_preview_table td{ /*text-indent:10px;*/}
+.app_process_preview_table td p{ line-height:30px;}
+.app_process_preview_table .app_process_preview_topic{ font-weight:bold; width:100px; text-align:center; color:#575E6D; text-indent:0px;}
+.app_process_preview_colspan3title{ font-weight:bold; font-size:15px; color:#575E6D;}
+.app_process_preview_userinfo{ padding-left:15px;}
+.app_process_preview_text{}
+.app_process_preview_append_title{ width:100px;}
+.app_process_preview_attachment_title{ text-align:right; padding-right:20px;}
+.app_process_preview_hr{ border-bottom:1px solid #E3E4E6; margin:0px 10px;}
+.app_process_preview_havetext{ margin-right:15px;}
+
+/*创建一致新流程
+.app_addnew_content_panl{min-height:150px;}*/
+.app_addnew_gantanhao{ background: url(../../../images/group/gantanhao.png) no-repeat 10px center; background-color: #FFF7B1; color: #575E6D; border-radius:3px; display: inline-block; height: 30px; line-height: 30px; padding-left:30px; padding-right:10px; }
+.app_addnew_head_title{ padding-bottom: 5px; border-bottom:2px solid #E0E3E6; padding-left:20px; font-size: 14px; font-weight: bold; margin-bottom: 10px;}
+.app_addnew_content_title{ padding-bottom: 5px; padding-left:40px; font-size: 14px;  margin-bottom: 10px;}
+.app_addnew_content_title_div{ float:left;}
+.app_addnew_content_panl{ line-height: 45px;}
+.app_addnew_table_title{display: inline-block; width: 100px; text-align: right;}
+.app_addnew_input_name{}
+
+.app_addnew_approval_tb{width: 100%; line-height: 35px; text-indent: 20px; border: 1px solid #E2E5E7;font-size:12px;border-top:1px solid #B2D1FF}
+.app_addnew_approval_thead{ background: #F8F8F8; font-weight: bold; text-align: left;border-bottom:solid 1px #E5E6E8}
+.app_addnew_approval_tbody{ border-top: 1px dotted #D9D9D9;}
+.app_addnew_approval_tbody .app_pubprocess_content_charge_text{width:200px}
+.app_addnew_approval_tfoot{ border-top: 1px dotted #D9D9D9;}
+.margin10{margin:0px 10px;}
+.app_addnew_approval_tbody .adattrhover{ background: #F5F5F5;cursor:move}
+
+
+.app_allprocess_head{ padding:1px; border: 1px solid #E2E5E7; position: relative; margin-bottom: 10px; }
+.app_allprocess_head_menu{ background: #F2F2F2; height: 30px;}
+.app_allprocess_head_menu_array{margin-left: 15px; width: 630px; overflow: hidden; height: 30px;}
+.app_allprocess_head_menu_option{ display: inline-block; line-height: 30px; text-align: center; width: 70px; cursor: pointer;}
+.app_allprocess_head_menu_add{background: url(../../../images/process/process_bg.png) no-repeat 0px -43px; display: block; width: 91px; height: 23px; margin-top:3px; margin-left: 5px; margin-right: 20px; cursor: pointer;}
+.app_allprocess_head_menu_add:hover{ background-position: 0px 0px;}
+.app_allprocess_head_menu_option_check{ padding: 0px 10px; height: 31px; line-height: 30px; background: #fff; position: absolute; margin-top: 2px;}
+.aap_allprocess_head_menu_ul{ height: 30px;left: 0px;}
+.app_allprocess_head_menu_li{ float: left; overflow: hidden; width: 70px; min-height: 30px;}
+.app_allprocess_head_menu_input{ width: 68px; height: 23px; vertical-align: middle; margin-top: 2px;}
+
+.app_allprocess_system_lists{ line-height: 27px; text-indent: 10px; border:1px solid #E3E3E3; border-top: 2px solid #3ECDF7; background: #F9F9F9; height: 27px; margin-right: 2px; width: 260px;}
+.app_allprocess_show_lists_up_btn{ cursor: pointer; background: url(../../../images/process/updown_bg1.png) no-repeat 2px -43px; display:inline-block; float: right; margin-top: 5px; margin-right: 10px; width: 20px; height: 20px;}
+.app_allprocess_show_lists_down_btn{ cursor: pointer; background: url(../../../images/process/updown_bg1.png) no-repeat 2px 5px; display:inline-block; float: right; margin-top: 5px; margin-right: 10px; width: 20px; height: 20px;}
+.app_color_yellow{color: #FF9C3B; margin:0px 5px;}
+.app_allprocess_tips_div{ height:30px; position: relative;}
+.app_allprocess_system_array{ position: absolute; top: 29px; right: 2px; border: 1px solid #E3E3E3; width: 250px; padding: 5px; background: #F9F9F9; z-index: 10;}
+.app_allprocess_system_tips{ margin-left: 5px; line-height: 20px;}
+.app_allprocess_system_checkbox{ text-align: right; margin-right: 5px;}
+.app_allprocess_system_checkbox input{ vertical-align: middle;}
+.app_allrpocess_up_btn{ margin: 5px 0px; background: url(../../../images/process/updown_bg2.png) no-repeat center 0px; display: block; height: 23px; cursor: pointer;}
+.app_allrpocess_down_btn{ margin: 5px 0px; background: url(../../../images/process/updown_bg2.png) no-repeat center -55px; display: block; height: 23px; cursor: pointer;}
+.app_allprocess_system_option{ height: 35px; margin: 0px 15px;}
+.app_allprocess_system_name{color: #007FBA; font-size: 16px; float: left; vertical-align: middle; cursor: pointer;}
+.app_allprocess_system_span{ color: #C9C9C9; font-size: 12px; float: right;}
+.app_allprocess_system_btn{ background: url(../../../images/process/updown_bg2.png) 0px -26px; display: block; float: right; width: 51px; height: 28px; text-align: center; line-height: 28px; vertical-align:middle; cursor: pointer;}
+.app_allprocess_system_overflow{ height: 350px; overflow: hidden;}
+
+.app_allprocess_head_menu_left_gray{ background: url(../../../images/process/process_bg.png) no-repeat -5px -371px; display: block; width: 12px; height: 34px; position: absolute; left: 0px; top: 0px; cursor: pointer;}
+.app_allprocess_head_menu_left_blue{ background: url(../../../images/process/process_bg.png) no-repeat -52px -371px; display: block; width: 12px; height: 34px; position: absolute; left: 0px; top: 0px; cursor: pointer;}
+.app_allprocess_head_menu_right_gray{ background: url(../../../images/process/process_bg.png) no-repeat -27px -371px; display: block; width: 12px; height: 34px; position: absolute; right: 120px; top: 0px; cursor: pointer;}
+.app_allprocess_head_menu_right_blue{ background: url(../../../images/process/process_bg.png) no-repeat -75px -371px; display: block; width: 12px; height: 34px; float: right; margin-right: -2px; cursor: pointer;}
+
+.app_allprocess_arrays{ overflow: hidden;}
+.app_allprocess_option_tb{width:100%;}
+.app_allprocess_option_tb td{ vertical-align: top; line-height: 28px;}
+.app_allprocess_up_array{ margin: 15px 10px 5px 0px; overflow: hidden;}
+.app_allprocess_option{ position: relative; border: 1px solid #E3E3E3; float: left; padding: 10px 5px; height: 90px; width:240px; margin-right: 10px; margin-bottom: 10px;}
+.app_allprocess_logo_bg{ background: url(../../../images/process/process_logo.png) no-repeat; margin-right: 10px; width:56px; height: 56px; display: block;}
+.app_allprocess_logo_bg_Solidify{ background: url(../../../images/process/process_logo_guhua.png) no-repeat; margin-right: 10px; width:56px; height: 56px; display: block;}
+.app_allprocess_logo_bg_disabled{ background: url(../../../images/process/process_logo_desabled.png) no-repeat; margin-right: 10px; width:56px; height: 56px; display: block; cursor:pointer;}
+.app_allprocess_option_edit{ background: url(../../../images/process/process_bg.png) no-repeat 0px -178px; cursor:pointer; margin-left: 10px; width:27px; height: 26px; display: block;}
+.app_allprocess_wenhao{background: url(../../../images/home/marin_sprite.png) no-repeat center -363px; width:30px; height: 21px; display: inline-block; }
+.app_allprocess_option_title{  font-size: 14px; font-weight: bold; display: inline-block;}
+
+.app_allpreocess_vtop{ vertical-align: top;}
+.app_allprocess_creat_btn{font-size: 14px; background: url(../../../images/process/process_bg.png) no-repeat 0px -85px; width: 104px; cursor:pointer; line-height: 26px; text-align: center; color: #fff; height: 28px; margin: auto; margin-top: 28px; display: block;}
+
+.app_allprocess_down_array{ border-top: 5px solid #F3F3F3; padding-top: 15px; margin: 0px 10px 10px 0px; width:790px;display:block;float:left;}
+.app_allprocess_manage_btn{background: url(../../../images/process/process_bg.png) no-repeat 0px -290px; margin-top: 75px;margin-left:5px; display: block; width: 57px; height: 22px; line-height:24px; color:#fff; text-align:center;}
+.app_allprocess_manage_btn:hover{ text-decoration:none; color:#fff;}
+.app_allprocess_manage_new_btn{background: url(../../../images/process/setting.png) no-repeat; display: block; margin:10px 10px; width: 16px; height: 16px; line-height:16px; color:#fff; text-align:center;}
+.app_allprocess_download_btn{background: url(../../../images/process/download.png) no-repeat; display: block; margin:10px 5px;width: 16px; height: 16px; line-height:16px; color:#fff; text-align:center;}
+
+.app_allprocess_absolute_yelbtn{background: url(../../../images/process/process_bg.png) no-repeat -52px -134px; bottom: 0px; right: 12px; display: block; width: 31px; height: 30px; position: absolute; line-height: 30px; text-align: center; color: #fff; font-weight: bold}
+.app_allprocess_absolute_graybtn{background: url(../../../images/process/process_bg.png) no-repeat 0px -134px; bottom: 0px; right: 12px; display: block; width: 31px; height: 30px; position: absolute; line-height: 30px; text-align: center; color: #C8CACC; font-weight: bold}
+.app_allprocess_option_tips{ display: block; text-align: center; font-size: 16px; margin-top: 10px; font-weight: bold;}
+.app_allprocess_add_btn{ display: block; cursor: pointer; margin: auto; background: url(../../../images/process/process_bg.png) no-repeat 0px -323px; text-align: center; color: #fff; line-height: 26px; width: 76px; height: 27px; font-size: 14px; margin-top: 10px;}
+
+.app_myoldprocess_type_okbtn{background: url("../../../images/home/headimg_03.png") repeat scroll 0 0 transparent;color: #FFFFFF; height: 21px; line-height:21px;width: 48px;z-index: 2; font-size:11px; display: inline-block; margin:5px; text-align:center; cursor:pointer;}
+.app_process_type_cancel{ background: url("../../../images/home/old_sleep_03.png") repeat scroll 0 0 transparent; color: #333; display: inline-block; height: 21px;line-height: 21px; width: 48px; text-align:center; cursor:pointer;}
+/*侃侃流程动态*/
+.app_process_kankan_leftbg{ }
+
+/*加班申请流程*/
+.app_workovertime_list{padding:10px 0px 10px 25px;}
+.app_workovertime_list table{border:solid 1px #DEDEDE}
+.app_workovertime_list tbody td{padding:0px 15px}
+.app_workovertime_list tbody .app_wv_ls_opt{padding:0px 25px}
+.app_dailyexpense_list{padding:10px 0px 10px 25px;}
+.app_dailyexpense_list table{border-bottom:solid 1px #DEDEDE}
+.app_dailyexpense_list tbody td{padding:0px 15px;border-top:solid 1px #DEDEDE}
+.app_dailyexpense_list tbody .app_exp_ls_opt{padding:0px 25px}
+
+/*flexigrid插件额外样式*/
+.flexigrid .pDiv .wf_addRowFormData_div{padding:3px 0px 0px 5px;overflow:hidden;height:28px;line-height:28px;}
+.flexigrid .pDiv .wf_addRowFormData_div .extToolbar_fm{float:left}
+.flexigrid .pDiv .wf_addRowFormData_div .extToolbar_btm{float:left;line-height:normal;margin-left:10px}
+.flexigrid .pDiv .wf_addRowFormData_div input{}
+
+/*PROCCESS PAGE FORM CONTENT NEW STYLE BY KUSION 2013-1-30*/
+.app_wfproc_content_row{padding:8px 0px;overflow:hidden;font-size:12px;}
+.app_wfproc_content_row .conTitle{width:105px;height:25px;float:left;text-align:right;line-height:25px;/*color:#8e8e8e*/}
+.app_wfproc_content_row .conMiddle{width:269px;height:25px;float:left;line-height:25px;}
+.app_wfproc_content_row .conLarge{width:738px;min-height:25px;float:left; overflow:hidden;line-height:36px}
+.app_wfproc_content_row .conMiddle strong,.app_wfproc_content_row .conLarge strong{/*font-weight:normal;*/line-height:25px}
+.app_wfproc_content_row .conLarge .flexigrid{line-height:normal}
+.app_wfproc_content_row .conLarge .app_document_show_list{line-height:18px}
+.app_content_approverLinkArea{padding-top:20px;border-top:1px solid #f1f1f1;margin-top:12px;}
+.app_content_border_up{/*border: 1px solid #D6ECF6;border:1px solid #e2e2e2;*/margin: 0px 20px;border-top:none;padding:20px 5px}
+.app_approver_areaDIV{padding:0px 5px 5px 5px;/*margin: 0px 20px;border: 1px solid #D6ECF6;*/border-top:none;border-bottom:none}
+.app_approver_execute_div{padding:0px 5px 5px 5px;border-top:none;border-bottom:none; display:none;}
+.app_approver_execute_desc_div{border:1px solid #B6B6B6;margin-left:100px;padding:5px;}
+.app_wfproc_approveOpinionlist,.app_approver_areaDIV,.app_content_approverLinkArea,.btm_bottons_area_approve,.btm_bottons_area_startnew,.btm_botton_Close,.app_content_viewApproverLink,.btm_bottons_area_execution{display:none}
+.app_wfproc_approveOpinionlist{border-top:1px solid #e2e2e2;padding-top:10px}
+.formbtmline{border-bottom:1px solid #e2e2e2;padding-bottom:20px;margin-bottom:12px}
+.formbtmline td{
+    vertical-align: middle;
+}
+.app_wfproc_content_row .conLarge .addApprove_for_ksnSelector{background:#FFF}
+.app_mynewprocess_title{height:40px;border-bottom: 2px solid #E0E3E6;margin:0px;width:778px;}
+.app_mynewprocess_title p{font-size:16px;font-weight:bold; padding-top:14px;float:left;}
+.app_search_right{float:right;padding-top:5px;}
+.app_color_red{color:red;margin:0 5px;vertical-align:bottom;font-size:14px;}
+.span_mustinputtag,.mtag{color:Red}
+.dftgraycolor{color:#999;}
+.proc_warnInfo{overflow:hidden; font-size:12px;padding-left:100px;background: url(../../../images/group/gantanhao.png) no-repeat 80px 0px;color:green;}
+.app_pubprocess_content_text_advice{height:80px;display:block}
+.span_advice_mustinputtag{color:Red;display:none}
+.app_mynewprocess_head{ overflow:hidden; padding:10px 0 10px 0;}
+.app_mynewprocess_tab{cursor:pointer; float:left; width:80px; height:30px; border:1px solid #E2E5E7; text-align:center; line-height:30px;}
+.span_viewApproveLinks{display:block;padding-left:20px;background:url(../../../images/workflow//viewico.png) no-repeat 2px center;}
+.app_process_type_select_btn{ background:url(/default/images/process/process_select_bg.png) no-repeat 0px 0px; width:99px; height:29px;line-height:30px; padding-left:10px; cursor:pointer;}
+.app_process_type_select_btn span{ width:90px;white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis;}
+.com_message_lists_top_span_show{background:url(../../../images/message/message_menu_btn.png) no-repeat 0px -67px; width:80px; height:29px;display:inline-block; line-height:30px; padding-left:5px; cursor:pointer;}
+.app_process_type_arrays_panl{ background:#fff; border:1px solid #ccc; position:absolute;  right:1px; top:30px; z-index:10; width:107px; display:none; max-height:200px; overflow:hidden;}
+.app_process_type_arrays_panl_new_ProceName{ background:#fff; border:1px solid #ccc; position:absolute;  z-index:10; width:107px; display:none; max-height:200px; overflow:hidden;}
+.app_process_relevance_tr_data{border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(226, 229, 231); line-height: 30px; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;}
+.app_process_type_option{line-height:30px; display:block; height:30px; text-indent:5px;}
+.app_process_type_option:hover{ background:#f4f4f4;}
+.app_process_type_option span{ width:90px;white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis;}
+.app_process_type_procname{ width:90px;white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis;}
+.app_process_type_option input{ vertical-align:middle; margin-right:5px;}
+.app_process_type_name{ vertical-align:middle; color:#575E6D; display:inline-block; font-weight:normal; white-space: nowrap; }
+.app_process_type_status{ display:block; text-indent:7px;}
+.app_process_type_statu_panl span{ display:block; text-indent:15px;}
+#txt_StartDate,#txt_EndDate{font-family:Arial Narrow;font-size:12px;}
+.app_process_type_statu_panl{ width:82px;line-height:30px; position:absolute;z-index:10; border:1px solid #ccc; background:#fff; top: 30px;}
+.app_process_type_status_name{ cursor:pointer;}
+.app_process_type_status_name:hover{ background:#f4f4f4;}
+
+.app_process_type_status_name_asc{ cursor:pointer; background: url("../../../images/message/message_order_bg.png") no-repeat scroll 1px -47px transparent;display:block; text-indent:15px;}
+.app_process_type_status_name_desc{ cursor:pointer;background: url("../../../images/message/message_order_bg.png") no-repeat scroll 1px -21px transparent;display:block; text-indent:15px;}
+.app_process_type_statu_panl span:hover{ background-color:#f4f4f4;}
+
+/*3月20日新增高级版*/
+.app_highprocess_serach_btn,.app_pro_btn{ background: url(../../../images/process/task2.png) no-repeat 0px -1px; background-color: #F4F4F4; width: 70px; height: 27px; border-radius: 3px; border: 1px solid #D9D9D9; position: relative;}
+.app_task_search_span{width:310px; position:absolute; display:none; top:30px;right:0px; border: 1px solid #D9D9D9; background: #fff;z-index:999;}
+.app_task_search_panl{ margin: 5px;}
+.app_task_search_tr{ padding: 5px 0px;}
+.app_task_search_tf{padding:5px 10px; }
+.app_task_search_tr input,.app_task_search_tr textarea{width: 290px; padding:1px 4px; height: 22px; line-height:22px/9;}
+.app_task_inside_add_btn{ background: url(/resource/default/zh-cn/images/task/inside_add_bg.png); width: 77px; height: 26px; display: inline-block; text-align: center;line-height: 26px; cursor: pointer; color: #fff; font-size: 14px;}
+.app_pro_btn{ background-image: none; display: block; text-align: center; line-height: 28px; margin: 0px 1px; cursor: pointer;}
+/*流程页面高级版样式*/
+.app_process_design{margin: 10px 0px;}
+.app_process_design_title{ float: left; width: 118px; text-align: right; font-size: 14px;}
+.app_process_design_tr{padding: 10px 0px; font-size: 14px; overflow:hidden;}
+.app_process_design_tr_role{padding: 10px 0px; font-size: 14px;min-height:20px; overflow:hidden;}
+.app_process_design_txt{ margin-left: 115px;}
+.app_process_design_name{height: 23px; width:200px; border: 1px solid #e2e5e7;}
+.app_process_design_type{height: 34px; width:520px; border: 1px solid #e2e5e7;}
+.app_process_design_type_add{margin-left: 10px; font-size: 14px; vertical-align: 12px}
+.app_process_design_hr{ border-top: 4px solid #F3F3F3; margin: 10px 0px;}
+.app_process_design_deital{ width: 600px; height: 100px;overflow-y:scroll;}
+.app_process_design_viewdiv{ border: 1px solid #E4E7E8; border-top-color: #B2D1FF; background: #F8F8F8;}
+.app_proce_design_menu{ line-height: 35px; font-size: 14px; overflow: hidden; padding: 0px 10px;}
+.app_process_design_panl{ border-top:1px solid #E4E7E8; border-bottom:1px solid #E4E7E8; min-height: 200px;background: #fff; overflow: hidden;/*overflow-x:scroll;*/width:1000px;}
+.app_process_design_down_edit{height: 30px; text-align: right; padding: 0px 10px; line-height: 30px;}
+
+
+.app_allprocess_filter{ border: 1px solid #E3E3E3; background: #F5F5F5; padding: 10px; margin: 10px 0px;width:756px;}
+.app_allprocess_filter_tr{line-height: 25px;}
+.app_allprocess_filter_title{float: left;}
+.app_allprocess_filters span{ cursor: pointer; padding: 2px 5px; color: #007FBA; margin-right: 5px;}
+.app_allprocess_filters span:hover, .app_allprocess_filters span.app_checked{background: #007FBA; color: #fff;}
+.app_processDesign_lists2 tbody th,.app_processDesign_lists2 tbody td,.app_processDesign_lists2 tfoot td{ border-top:1px solid #E2E5E7;}
+.app_designprocess_pub_btn{ background: url(../../../images/process/designprocess_bg.png); width: 170px; height: 30px; display: inline-block; font-size: 16px; font-weight:bold; color: #fff; line-height: 30px; text-indent: 40px; cursor: pointer; margin-top: 10px; margin-right: 20px;}
+.app_designprocess_pub_btn:hover{ color: #fff; text-decoration: none;}
+.app_allprocess_lists_btn .app_nav_btn_ckd,.app_allprocess_lists_btn .app_nav_btn{background-image: url(../../../images/process/highprocess1.png); width: 70px; background-repeat:no-repeat; background-position: 26px 7px; border-radius: 3px 0px 0px 3px;}
+.app_allprocess_views_btn .app_nav_btn_ckd,.app_allprocess_views_btn .app_nav_btn{background-image: url(../../../images/process/highprocess1.png); width: 70px; background-repeat:no-repeat; background-position: 26px -21px; border-radius: 0px 3px 3px 0px; border-left: 0px;}
+.app_allprocess_lists_btn:hover .app_nav_btn, .app_allprocess_views_btn:hover .app_nav_btn,.app_allprocess_lists_btn .app_nav_btn_ckd,.app_allprocess_views_btn .app_nav_btn_ckd{ background-color: #E2E2E2;}
+.app_allprocess_caption{ background: url(../../../images/home/marin_sprite.png) no-repeat 3px -370px; vertical-align: middle; width: 20px; height:18px; display: inline-block;}
+.app_allprocess_lists_type{margin-right: 10px;}
+.app_preview_status{ padding: 1px 5px; background: #73BC00; vertical-align: middle; line-height: 35px; color: #fff; margin-left: 10px;}
+.app_desgin_tr_input{width:600px; height: 23px;}
+.app_process_design_tedit{ padding: 20px 10px; text-align:center;}
+.app_process_design_div{ margin: 10px 0px;}
+.app_process_config_menu span{ padding: 0px 20px; margin: 0px 5px; display: inline-block; height: 23px; cursor: pointer;}
+.app_process_config_menu span.app_checked,.app_process_config_menu span:hover{ color: #fff; background: #038BC0;}
+.app_process_config_menu{ border: 1px solid #C8CACC; background: #F0F0F0; height: 23px; margin: 5px 0px; line-height: 23px; padding:5px;}
+.app_config_type_name{width: 140px; padding: 0px 2px;}
+.app_config_type_order{width: 120px; padding: 0px 2px;}
+.app_config_tb_3td{ padding-left: 40px; text-align: left; width: 250px;}
+.app_config_tb_3td_sortindex{ padding-left: 40px; text-align: left;}
+.app_config_tb_3td_sortindex input{ width:40px;}
+.app_config_tb_3td_list{ padding-left:8px; text-align: left; width: 250px;}
+.app_config_tb_3td_set{padding-left:30px; text-align: left; width: 250px;}
+.app_config_tb_4td{ padding-left: 40px; text-align: left; width: 160px;}
+.app_bgcolor_f8{ background: #F8F8F8;}
+.app_process_dropdown{ position: relative;z-index:30;}
+.app_process_dropdown_txt{ border: 1px solid #d9d9d9; height: 22px; width: 100%; min-height: 22px;line-height: 22px; text-indent: 2px; }
+.app_process_dropdown_roletitle{ border: 1px solid #d9d9d9; width: 288px; min-height: 22px;line-height: 22px; text-indent: 2px; }
+.app_process_dropdown_role{ border: 1px solid #d9d9d9; width: 100%; position: absolute; left: 0px; background: #fff; }
+.app_process_config_content input{ border-color: #d9d9d9; height: 22px;}
+.app_process_dropdown_ul{ line-height: 25px;}
+.app_process_dropdown_ul li{ height: 25px;}
+.app_process_dropdown_layer{ border: 1px solid #d9d9d9; width: 100%; position: absolute; left: 0px; top: 25px; background: #fff;}
+.app_process_dropdown_option{ margin-left: 10px;}
+.app_process_dropdown_option input{}
+.app_process_dropdown_center{height:150px; overflow: hidden; position: relative;overflow:auto;}
+.app_process_dropdown_define{ background: url(../../../images/home/queding_03.png); width: 47px; height: 26px; display: inline-block; text-align: center; color: #fff; line-height: 25px; font-size: 14px; margin:10px; cursor: pointer;}
+.app_process_dropdown_down{ font-size: 14px;}
+.app_process_dropdown_panl{ display: inline-block; width: 100%; vertical-align: middle;}
+.app_process_dropdown{ margin: auto; text-align: left; width: 200px;}
+.app_process_dropdowns{ margin: auto; text-align: left; width: 450px; position:relative}
+.app_allprocess_green{  color:  #73BC00; font-size: 12px; display: inline-block; width: 70px; height: 20px; line-height: 20px; }
+.app_allprocess_c9{  color:  #c9c9c9;  font-size: 12px; display: inline-block; width: 70px; height: 20px; line-height: 20px;}
+.app_allprocess_gray{   color:Gray;  font-size: 12px; display: inline-block; width: 70px; height: 20px; line-height: 20px;}
+.app_preview_edit_btn{ background: url(/resource/default/zh-cn/images/report/myreport_bg.png) no-repeat 15px -29px; padding-left: 20px; line-height: 28px; display: inline-block; width: 50px; text-align: center; cursor: pointer;}
+.app_preview_down_btn{display: inline-block; width: 70px; text-align: center; line-height: 28px;  height: 28px; cursor: pointer;}
+.app_priview_packup{background: url(../../../images/message/up_hide.png) no-repeat 0px 6px; padding-left: 10px;}
+.app_priview_packdown{background: url(../../../images/message/down_show.png) no-repeat 0px 5px; padding-left: 10px;}
+.app_process_design_form_btn{ background: url(../../../images/process/desgin_form_bg.png); width: 775px; height: 235px; display: block; cursor: pointer;}
+.app_process_design_activity_btn{ background: url(../../../images/process/desgin_activity_bg.png); width: 775px; height: 235px; display: block; cursor: pointer;}
+.app_desgin_process_next{background: url(../../../images/process/desgin_have_btn.png); width: 143px; height: 30px; color: #fff; display: inline-block; margin-right: 20px; font-size: 15px; cursor: pointer; text-align: center; line-height: 30px;}
+.app_process_design_select_btn{ background:url(/default/images/process/process_select_bg.png) no-repeat 0px 0px; width:99px; height:29px;line-height:30px; padding-left:11px; cursor:pointer;}
+.app_process_design_select_btn span{ width:90px;white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis;}
+
+/*弹出层样式替换*/
+.wf_layerpanl_design_view{background:url(../../../images/home/layer_bg.png);z-index:1000;border-radius:3px;}
+
+/*流程代理样式*/
+.app_initiator_set_setting { height: 29px; width: 117px; line-height: 29px; text-align: center; float: left; background-image: url(../../../images/process/initiator_set_bg_117-29.png); background-repeat: no-repeat; background-position: 0px 0px; margin-right: 10px; cursor: pointer; }
+.app_initiator_set_off { height: 29px; width: 117px; line-height: 29px; text-align: center; float: left; background-image: url(../../../images/process/initiator_set_bg_117-29.png); background-repeat: no-repeat; background-position: 0px 0px; cursor: pointer; }
+.app_initiator_process_state.valid { color: #0dbc00; }
+.app_initiator_process_state.Fail { color: red; }
+
+/*流程打印页面 5月27日新增*/
+.app_process_print{width: 980px; margin: auto; border: 1px solid #333;}
+.app_process_print_head{overflow: hidden; margin:10px 25px 0px 25px; border-bottom: 1px solid #017fba; padding: 10px 20px;}
+.app_process_print_content{ margin:30px; margin-top: 0px;}
+.app_process_print_title{ font-size: 22px; font-weight: bold;}
+
+.app_process_print_intro{ padding: 10px 20px; overflow: hidden;}
+.app_process_print_content #app_process_preview_text .fw_ksninput_slted a {display:none;}/*选人控件×去掉*/
+
+/*流程代理页面 7月3日新增*/
+.app_process_proxysettings{ border: 1px solid #E3E3E3; background: #F5F5F5; padding: 10px; margin: 10px 0px;width:758px;overflow:hidden;font-size:14px;}
+.app_process_proxysettings_title{font-weight:bold;}
+.app_process_proxysettings_select{margin:10px 0px;float:left;}
+.app_process_proxysettings_select select{width:267px;}
+.app_process_proxysettings_proxy{float:right;padding-top:9px;}
+.app_process_proxysettings_proxy input{width:300px;}
+.app_process_proxysettings_time{float:left;margin:10px 0px;}
+.app_process_proxysettings_time input{width:120px;}
+.app_process_proxysettings_submit{float:right;}
+
+
+/*流程页面第一步新增发起人限制样式 2013.10.17新增*/
+.app_process_design_all{font-size:12px;}
+.app_process_design_limit{font-size:12px;margin:10px 0px 20px 3px;}
+.app_process_design_limit_control{margin-left:15px;}
+.app_process_design_receiptrole_list{color:#575E6D;}
+
+/*流程页面新增第四步设置流程字段权限 2013.10.28 新增*/
+.app_process_setper_div{width:100%;overflow-y:auto;overflow-x:hiddle;}
+.app_process_setper_table{width:99%;margin:0 auto;}
+.app_process_setper_table tr td{border: 1px solid #cccccc;text-align:center; height:26px;}
+.app_process_setper_table select{width:52px;}
+.app_process_setper_title td{min-width:80px; font-size:12px;}
+.app_process_setper_table td.app_process_setper_td{POSITION:absolute;min-width:100px;background:#fff; height:26px; -moz-margin-top: -1px;}
+.app_process_setper_actname{max-width:100%;height:26px;text-overflow:ellipsis;overflow:hidden;display:block;line-height:26px;}
+.app_process_setper_fieldname{width:100px;height:26px;text-overflow:ellipsis;overflow:hidden;display:block;line-height:26px;}
+.app_process_setper_td_margin{padding-left:100px;}
+/*流程页面新增第一步设置限制发起人限制 2013.10.28 新增*/
+
+/*流程预览页面新增第四步字段权限 2013.11.10 新增*/
+.app_process_setper_divview{width:99%;overflow-y:auto;overflow-x:hiddle;margin:auto;}
+.app_process_setper_tableview{width:99%;margin:auto;}
+.app_process_setper_tableview tr td{border: 1px solid #cccccc;text-align:center; height:26px;background: #fff;line-height:26px;}
+.app_process_setper_titleview td{min-width:80px; font-size:12px;}
+.app_process_setper_tableview td.app_process_setper_tdview{POSITION:absolute;width:100px;background:#fff; height:26px;}
+.app_process_setper_actnameview{max-width:100%;height:26px;text-overflow:ellipsis;overflow:hidden;display:block;line-height:26px;}
+.app_process_setper_fieldnameview{width:100px;height:26px;text-overflow:ellipsis;overflow:hidden;display:block;line-height:26px;}
+.app_process_setper_tdview_margin{padding-left:100px;}
+
+/*btn*/
+.app_proc_btn_print {cursor:pointer;margin-left:15px;display:none;width:45px;height:28px;background:url(../../../images/workflow/proc_btn_print.jpg);}
+
+.app_proc_btn_back {cursor:pointer;margin-left:15px;float:left;display:block;width:45px;height:28px;background:url(../../../images/workflow/proc_btn_back.jpg);}
+
+
+
+.app_config_data_name{cursor:pointer; background: url(../../../images/workflow/u42_normal.png) no-repeat 2px 4px; padding-left:14px;}
+.app_config_data_name_1{cursor:pointer; background: url(../../../images/workflow/u42_selected.png) no-repeat 2px 4px; padding-left:14px;}
+.ct_add_btn{background: url(/resource/default/special/images/button/75x26gray.png); color: #575E6D;width:75px;height: 26px;line-height: 25px;text-align: center;display: inline-block;}
+.app_hd_hali_show{padding-left:10px;color: #007fba; text-indent: 12px; background-image: url(../images/hrdata/hd_updow.png); background-repeat: no-repeat; background-position: left 3px; cursor: pointer; position: relative;}
+.app_hd_hali_hind{padding-left:10px;color: #007fba; text-indent: 12px; background-image: url(../images/hrdata/hd_updow.png); background-repeat: no-repeat; background-position: left -36px; cursor: pointer; position: relative;}
+.app_process_data_edit{padding-left:18px;color: #007fba; text-indent: 12px; background-image: url(../images/hrdata/web_icon_018.gif); background-repeat: no-repeat; cursor: pointer; position: relative;}
+.app_new_data_source,.app_data_del_source,.app_data_del,.app_process_newsetcancel,.app_data_cancel,.app_process_newlistcancel{padding-left:18px; padding-right:4px; color: #007fba; text-indent: 12px; background-image: url(../images/hrdata/web_icon_009.gif); background-repeat: no-repeat; cursor: pointer; position: relative;}
+.app_data_add_newsub,.app_data_add_newlist{padding-left:18px; padding-right:4px; color: #007fba; text-indent: 12px; background-image: url(../images/hrdata/123.gif); background-repeat: no-repeat; cursor: pointer; position: relative;}
+.app_process_data_editlistsave,.app_process_data_editsubtsave,.app_process_data_save{padding-left:18px; padding-right:4px; color: #007fba; text-indent: 12px; background-image: url(../images/hrdata/web_icon_025.gif); background-repeat: no-repeat; cursor: pointer; position: relative;}
+
+/*数据源*/
+
+.app_processDesign_datasource{font-size:14px; width:778px; line-height:30px; }
+tr.app_wf_datasource_name{width:100%;height:100%;font-weight:bold;border-bottom:#ccc 1px solid;}
+tr.app_wf_datasource_name:hover{background:#F8F8F8}
+tr.app_wf_datasource_name td{padding:0px;padding-left:15px;}
+.app_wf_datasource_operator,.app_wf_datasource_operator_top {float:right;display:none;padding-right:5px;}
+.app_processDesign_datasource_sub tr.data_source_3 {border:#ccc 1px dotted;}
+.app_processDesign_datasource_sub { width:764px;margin-top:5px;margin-left:5px;border:#ccc 1px solid;border-bottom:#ccc 2px solid;}
+
+/*兼职*/
+.app_wf_parttime_triangle {cursor:pointer;background: url(../../../images/webim/webim1.png) 0px 5px no-repeat;width:20px;height:10px;display:none;}
+.app_wf_parttime_sel {position:absolute;border:#C8CACC 1px solid;box-shadow:5px 5px 20px #999;width:245px; background-color:#fff;display:none;z-index:99999}
+.app_wf_parttime_sel div{float:left;width:245px;cursor:pointer;}
+.app_wf_parttime_sel span{display:block;float:left; width:80px;height:30px;line-height:30px;border:red 0px solid;overflow:hidden;}
+.app_wf_parttime_sel .app_wf_parttime_sel_pname {padding-left:30px;float:left;display:block;width:105px;}
+.app_wf_parttime_sel .app_wf_parttime_sel_aname {float:left;display:block;width:105px;}
+
+.app_wf_role_tips_left, .app_wf_role_tips_right {float:left; background: url(../../../images/workflow/role_kuohao.jpg) no-repeat;display:block;width:11px;height:27px;}
+.app_wf_role_tips_left {display:none; background: url(../../../images/workflow/role_kuohao.jpg) 0px -27px no-repeat;}
+.app_wf_role_tips_right {display:none; background: url(../../../images/workflow/role_kuohao.jpg) 0px 0px no-repeat;}
+.app_wf_role_tips_m {display:block;float:left;}
+.proc_detail_top_dress span {line-height:30px;}
+
+.app_wf_role_tips_div {position:relative;top:25px; width:166px;height:116px;background: url(../../../images/workflow/role_tips.png) no-repeat; color: #75502e;}
+.app_wf_role_tips_div {position:relative;top:25px; width:222px;height:172px;background: url(../../../images/tip-bg.png) no-repeat;z-index:999;}
+.app_wf_role_tips_close {cursor:pointer; position:relative;left:194px;top:21px;width:15px;height:15px;border:red 0px solid;}
+.app_wf_role_tips_content{position:relative;left:5px;top:30px;display:block;line-height:22px;padding: 17px; }
+.app_wf_role_tips_iknow {cursor:pointer;position:absolute;left:16px;bottom:20px;width:92px;height:32px;}
+.app_wf_role_tips_notips{cursor:pointer;position:absolute;left:124px;bottom:20px;display:block;width: 150px;height: 30px; }
+
+#OriginatorName {cursor:pointer}
+
+#app_process_print_backwf {display:none;}
+
+/*红绿按钮*/
+.pjt_bluebtn, .pjt_redbtn {background: #1A98E1;border: 1px solid #147DB9;font-size: 12px;font-weight: normal;color: #fff;border-radius: 3px;padding: 5px 15px;height: 18px;line-height: 18px;cursor: pointer;}
+.pjt_redbtn {background: #DA362F;border: 1px solid #BC241D;right: 0px; padding:4px 15px;}
+
+/*关联流程*/
+.fw_layerpanl_text .fw_relative .app_webim_sroll_span {position:relative;}
+.app_process_type_arrays_panl_new_ProceName {overflow-y:scroll;}
+
+/*表头字号放大*/
+.proc_detail_top_dress span {font-size:13px;}
+
+/*流程图标*/
+/*.app_wf_icon_text{background:url(../../../images/workflow/wf-icon-blank.gif) no-repeat;display:block;width:70px;height:70px;float:left;cursor:pointer;margin-right:20px;margin-bottom:20px;line-height:70px;text-align:center;font-size:24px;}*/
+.app_wf_icon, .app_wf_icon_gray{display:block;width:70px;line-height:70px;height:70px;float:left;cursor:pointer;/*margin-right:20px;margin-bottom:20px;*/}
+.app_wf_icon {background:url(../../../images/workflow/wf-icon.png) no-repeat;}
+.app_wf_icon_gray {background:url(../../../images/workflow/wf-icon-gray.png) no-repeat center;}
+.app_wf_icon_default { background-position:0px 0px; }
+.app_wf_icon_set { background-position:-90px 0px; }
+.app_wf_icon_dollar { background-position:-180px 0px; }
+.app_wf_icon_note_check { background-position:-270px 0px; }
+.app_wf_icon_box { background-position:0px -90px; }
+.app_wf_icon_flag { background-position:-90px -90px; }
+.app_wf_icon_book { background-position:-180px -90px; }
+.app_wf_icon_tag { background-position:-270px -90px; }
+.app_wf_icon_abacus { background-position:0px -180px; }
+.app_wf_icon_car { background-position:-90px -180px; }
+.app_wf_icon_note { background-position:-180px -180px; }
+.app_wf_icon_shopping_basket { background-position:-270px -180px; }
+.app_wf_icon_tips {color:#ccc; float: left;}
+.app_wf_icon_select_true {background:url(../../../images/workflow/wf-select.gif) -14px 0px no-repeat;display:block;width:14px;height:14px;float:left;}
+.app_wf_icon_select_false {background:url(../../../images/workflow/wf-select.gif) 0px 0px no-repeat;display:block;width:14px;height:14px;float:left;}
+
+.app_wf_char{display:block;width:70px;height:70px;float:left;cursor:pointer;font-size: 25px;text-align: center;line-height: 70px;}
+.app_wf_char {background:url(../../../images/workflow/wf-icon-blank.png) no-repeat;}
+.app_wf_char_red{color:#db2160;}
+.app_wf_char_ashen{color:#db7022;}
+.app_wf_char_blue{color:#218fda;}
+.app_wf_char_green{color:#35914e;}
+.app_wf_char_yellow{color:#f3d012;}
+.app_wf_char_violet{color:#8222db;}
+.app_wf_char_brown{color:#9c3536;}
+.app_wf_char_black{color:#340b19;}
+
+
+#wfIconSetArea {display:none;float:left; width:385px;background-color:#fff;border:#ccc 1px solid;box-shadow:2px 2px 3px #ccc;}
+#wfIconSetArea div {width:100%; float: left; padding-left:20px;}
+#wfIconSetArea .wf_icon_title {font-weight:bold;line-height:45px;}
+#wfIconSetArea .wf_icon_title_selbtn {margin-top:5px;margin-bottom:15px;}
+#wfIconSetArea .wf_icon_textinput {margin-top:0px;margin-bottom:15px;}
+#wfIconSetArea .wf_icon_textinput input {width:328px;height:20px;display:block;}
+
+#wfIconSetArea div.wf_icon_settext {cursor:pointer;border:#ccc 1px solid;width:68px;height:53px;padding:0px;margin-right:20px;margin-bottom:20px;}
+#wfIconSetArea div.wf_icon_settext div{border:#fff 1px solid;width:66px;height:28px;padding:0px;}
+#wfIconSetArea div.wf_icon_settext span{display:block; border:#fff 1px solid;width:66px;line-height:25px;color:#666;text-align:center;font-size:12px;}
+
+.wf_icon_bt_ok {background: #1A98E1;border: 1px solid #157DB9;width: 55px;height: 34px;line-height: 34px;border-radius: 3px;/*margin: 10px 15px;*/margin-right:10px;margin-bottom:15px; display: block;color: #fff;text-align: center;font-size: 14px;cursor: pointer;float:right;}
+.wf_icon_bt_cancel {background: #dcdde1;border: 1px solid #b6b7b9;width: 55px;height: 34px;line-height: 34px;border-radius: 3px;/*margin: 10px 15px;*/margin-right:50px;margin-bottom:15px; display: block;color: #7c7d7f;text-align: center;font-size: 14px;cursor: pointer;float:right;}
+
+/*end 流程图标*/
+
+
+/*常用发起流程设置*/
+.app_wf_add_common_wf {display:block;width:75px;height:70px;float:left;cursor:pointer;background:url(../../../images/workflow/wf-icon-add.png)no-repeat;}
+.app_wf_common {float:left;padding: 10px;background-color:#E5EFFA;width:100%;}
+.app_wf_icon_wrapa{display:block;width:70px;float:left;margin-right:37px;height:120px;}
+.app_wf_icon_wrapa span.app_wf_icon{width:70px;display:block;float:left;text-align:center;margin-bottom:0px;}
+.app_wf_icon_wrapa a{width:72px; display:block;float:left;text-align:center;line-height:20px;height:72px;overflow:hidden;}
+.app_wf_icon_wrapa a.app_wf_icon_pic {  }
+.app_wf_icon_wrapa a.app_wf_icon_txt { height:40px }
+.del-obj-ico-a {display: block;position:absolute;top:5px;right:5px;width: 14px;height: 14px;background: url(/resource/default/special/images/plugin/ksnselector/icon_cross.png) no-repeat;margin-top: 2px;}
+    /*弹出层*/
+.app_wf_icon_common_set {display:block;float:left;width:150px;line-height:21px;padding-left:18px;vertical-align: bottom;}
+.app_wf_icon_common_set input{margin-right:5px;line-height:25px;}
+.app_wf_icon_common_set a{display:block;float:left;line-height:25px;}
+.app_wf_icon_common_set_name {width:120px;}
+
+ .app_wf_icon_wrapa {  margin-right: 37px; width:72px; }
+/*end 常用发起流程设置*/
+
+.app_process_design_show {overflow-x:scroll; overflow-y:hidden;}
+
+.app_pubprocess_content .fw_ksntxtbox {
+    width:237px;
+}
+.ctrltxt .personInfo {
+    width:736px;
+}
+input.inputh-36 {height: 26px;line-height: 26px; width: 160px;}

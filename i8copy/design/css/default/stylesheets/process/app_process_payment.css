@@ -1,0 +1,540 @@
+.control-payment-detail,.control-payment-operate{
+    width: 810px;
+}
+.control-payment-container{
+    width: 812px;
+}
+.control-payment-header div {
+    height: 42px;
+    line-height: 42px;
+
+}
+
+.payment-maintain-reason{
+    width:610px;
+}
+
+
+.control-payment-operate{
+    border-top:1px solid #DDDDDD;
+}
+.control-payment-title,.control-payment-detail th,.control-payment-date-title{
+    font-weight: bold;
+    font-size:12px;
+    color:#000000;
+    text-align:left;
+}
+.control-payment-business-date{
+    width:298px;
+}
+.control-payment-bizdate{
+    margin-left:5px;
+    margin-right:120px;
+}
+
+.control-payment-detail th {
+    background-color:#EDEDED;
+}
+
+
+.control-payment-header{
+    border-left:1px solid #DDDDDD;
+    border-top:1px solid #DDDDDD;
+    border-right:1px solid #DDDDDD;
+    overflow:hidden;
+    display: none;
+}
+
+.control-payment-header div{
+    height:42px;
+    line-height: 42px;
+}
+.control-payment-detail th, .control-payment-detail td{
+    min-width:60px;
+    vertical-align: middle;
+    /* text-align: center;*/
+}
+.control-payment-detail th{
+    text-align: left;
+}
+
+
+.control-payment-detail tr{
+    height:40px;
+}
+
+
+/* edit by chentao */
+
+.payment-data-exceed{
+    color:#ff0000;
+}
+.payment-header-hide,.payment-data-hide{
+    display:none;
+}
+.control-payment-title{
+    padding-left:8px;
+    padding-right:5px;
+}
+.proc_detail_center_wrap .control-payment-operate{
+    display:none;
+}
+.control-payment-operate .operatrow td{
+    vertical-align: middle;
+    text-align:left;
+    padding-left:5px;
+}
+.control-operation-payment-title{
+    width:10.5%;
+}
+.control-operation-payment-data{
+    width:39.5%;
+}
+
+.payment-detail-remark{
+    width:288px;
+    margin-right:5px;
+}
+.control-payment-operate  .operatrow  td.payment-operation-save{
+    text-align: right;
+    padding-right:14px ;
+}
+.btn-blue96x32, .btn-gray96x32 {
+    text-align: center;
+    width: 96px;
+    height: 32px;
+    display: inline-block;
+    color: #fff;
+    background: #49C7EA;
+    line-height: 32px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.payment-detail-amount{
+    margin-right:10px;
+}
+.payment-currency-select{
+    width:100px;
+}
+
+.payment-item-select{
+    width:300px;
+}
+
+.payment-costcenter-select{
+    width:290px;
+}
+
+.control-payment-operate .operatrow input[type=text]{
+    height:24px;
+    line-height: 24px;
+}
+.payment-detail-amount{
+    width:178px;
+}
+
+.payment-rowdata-hide{
+    display:none;
+}
+.control-payment-list td{
+    text-align: left;
+    padding-left:10px;
+    line-height: 16px;
+}
+
+tr.operatrow  .payment-addnewrow {
+    margin-left:33px;
+}
+.control-payment-body{
+    border: 1px solid #DDD;
+}
+.control-payment-total td{
+    padding-left:10px;
+    font-weight: bold;
+}
+.control-payment-list tr:nth-child(even) td {
+    background-color: #F7F7F7;
+}
+
+.control-payment-detail  td.payment-rowindex{
+    width:40px;
+    min-width:40px;
+}
+.payment-header-remark{
+    width:80px;
+}
+
+.control-payment-detail th:first-child{
+    width:40px;
+    min-width: 40px;
+}
+
+.control-payment-operate .operatrow select{
+    height:26px;
+}
+.payment-header-operate{
+    width:60px;
+}
+.payment-header-center{
+    width:140px;
+}
+.payment-header-name{
+    width:130px;
+}
+.payment-header-currency{
+    width:60px;
+}
+.payment-header-remark{
+    width:140px;
+}
+
+.operatrow-extdata-left input,.operatrow-extdata-left select{
+    width:290px;
+}
+
+.operatrow-extdata-right input,.operatrow-extdata-right select{
+    width:298px;
+}
+.control-payment-body-content{
+    overflow-x:scroll;
+}
+
+.control-payment-detail th.payment-header-extdata{
+    min-width: 70px;
+}
+/*控件原形基础样式*/
+
+.control-body{
+    border: 1px solid #DDD;
+}
+.control-body-content{
+    overflow-x: scroll;
+}
+.control-detail, .control-operate{
+    width: 810px;
+}
+
+.control-detail th{
+    text-align: center;
+    min-width: 60px;
+    vertical-align: middle;
+    background-color: #EDEDED;
+    font-size: 12px;
+    color: #000000;
+    text-align:left;
+    padding-left: 10px;
+}
+.control-operate select{
+    height: 26px;
+    width: 300px;
+}
+.control-operate input[type=text]{
+    height: 24px;
+    line-height: 24px;
+    width: 298px;
+}
+.control-operate input[type=textarea]{
+    height: 24px;
+    line-height: 24px;
+    width: 298px;
+    resize: none;
+}
+.control-operate input[type=text].paymentapply-item-amount{
+    width: 170px;
+}
+.control-operate .paymentapply-item-currency{
+    width: 110px;
+    margin-left: 18px;
+}
+.control-operate td{
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 5px;
+    white-space: nowrap;
+}
+.control-operation-data{
+    width: 39.5%;
+}
+
+.control-total{
+
+}
+.control-operate .operation-save{
+    text-align: right;
+    padding-right: 14px;
+}
+.addnewrow{
+    padding: 0 20px;
+    text-indent: 0;
+    height: 26px;
+    text-align: center;
+    border: none;
+    color: #FFF;
+    background: #47C7EA;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 3px;
+    font-weight: bold;
+    line-height: 26px;
+    display: inline-block;
+    margin-left: 33px;
+}
+.paymentapply-hide,.overallbudgetapply-hide{
+    display: none;
+}
+.control-operate  .paymentapply-currency-select{
+    width: 100px;
+}
+.control-operate  .paymentapply-detail-amount{
+    margin-right: 10px;
+    width: 178px!important;
+}
+.control-paymentapply-uses, .control-paymentapply-year{
+    height: 24px;
+    width: 180px;
+    margin-right: 20px;
+}
+.control-paymentapply-left{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.control-paymentapply-title{
+    font-weight: bold;
+}
+.currencytxt{
+    margin-left: 30px;
+}
+
+.control-paymentapply-list td{
+    text-align: left;
+    padding-left:10px;
+}
+.operatrow .control-operation-data{
+    text-align: left;
+}
+.control-payment-business-year,.control-payment-business-month{
+    width:100px;
+    margin:0 10px;
+    height: 28px;
+}
+
+.payment-header-createuser-hide{
+    display: none;
+}
+.payment-row-createuser-hide{
+    display: none;
+}
+.control-paymentapply-header{
+    height: 42px;
+    border: 1px solid #dfdfdf;
+    padding-top: 5px;
+    border-bottom: none;
+}
+.control-paymentapply-month{
+    width: 100px;
+}
+
+/*新版费用申请控件添加样式start*/
+.apply-v2 .control-operation-data{
+    width: 38.5%;
+}
+.apply-v2 .control-paymentapply-header{
+    height: auto;
+    overflow: hidden;
+}
+select.control-paymentapply-costCenter{
+    width: 200px;
+}
+.apply-v2  .paymentapply-item-detailName{
+    width: 120px;
+}
+.apply-v2 .paymentapply-item-budgetName{
+    width: 120px;
+}
+.apply-v2 .paymentapply-yearuse{
+    width: 100px;
+    display: block;
+}
+.apply-v2 .paymentapply-currency{
+    margin-left: 20px;
+}
+.apply-v2 .paymentapply-radio{
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.apply-v2 .paymentapply-radio label{
+    margin-left: 5px;
+    vertical-align: -2px;
+}
+.fdctrl .apply-v2 .control-operate  .paymentapply-item-remark{
+    width: 160px;
+}
+.apply-v2 .control-operate .paymentapply-cancel{
+    padding: 0 20px;
+    text-indent: 0;
+    height: 26px;
+    text-align: center;
+    border: none;
+    color: #FFF;
+    background: #EDEDED;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 3px;
+    font-weight: bold;
+    line-height: 26px;
+    display: inline-block;
+    margin-left: 33px;
+}
+.control-detail td{
+    padding-left: 10px;
+    white-space: nowrap;
+}
+.control-detail .td-option{
+    min-width: 66px;
+}
+.control-paymentapply-containernew.eidthide .control-operate{
+    display: none;
+}
+.control-paymentapply-containernew.eidthide .td-option{
+    display: none;
+}
+.control-paymentapply-containernew.eidthide .paymentapply-header-operate{
+    display: none;
+}
+
+.eidthide .control-operate{
+    display: none;
+}
+.eidthide .td-option{
+    display: none;
+}
+
+.control-paymentapply-containernew.eidthide .control-paymentapply-name,
+.control-paymentapply-containernew.eidthide .control-paymentapply-costCenter{
+}
+
+
+
+/*新版费用申请控件添加样式end*/
+/*新版费用核销样式 start*/
+.control-paymentverify-containernew .control-paymentverify-header{
+    height: 42px;
+    border: 1px solid #dfdfdf;
+    padding-top: 5px;
+    border-bottom: none;
+}
+/*新版费用申请控件添加样式end*/
+
+.control-paymentverify-containernew .header-title{
+    padding-left: 20px;
+}
+.control-paymentverify-containernew .contorl-paymentverify-name,
+.fdctrl .ctrlbox .ctrltxt .control-paymentverify-containernew .contorl-paymentverify-paydate{
+    width: 100px;
+}
+.control-paymentverify-containernew  .contorl-paymentverify-closeApply{
+    width: 50px;
+}
+.control-paymentverify-containernew .control-paymentverify-body-content{
+    overflow-x: scroll;
+}
+.control-paymentverify-containernew .control-detail th,.control-paymentverify-containernew .control-paymentverify-list td{
+    text-align: left;
+}
+.control-paymentverify-containernew .control-detail th.paymentverify-header-budgetName,
+.control-paymentverify-containernew .control-detail th.paymentverify-header-ExtBizType,
+.control-paymentverify-containernew .control-detail .ExtBizType,
+.verficationnew.control-detail th.paymentverify-header-budgetName,
+.verficationnew.control-detail th.paymentverify-header-ExtBizType
+{
+   min-width: 120px;
+}
+.control-paymentverify-containernew .control-detail th.paymentverify-header-amount,
+.control-paymentverify-containernew .control-detail th.paymentverify-header-budgetuse,
+.control-paymentverify-containernew .control-detail th.paymentverify-header-monthuse,
+.control-paymentverify-containernew .control-detail th.paymentverify-header-ExtOccurDate,
+.verficationnew.control-detail th.paymentverify-header-amount,
+.verficationnew.control-detail th.paymentverify-header-budgetuse,
+.verficationnew.control-detail th.paymentverify-header-monthuse,
+.verficationnew.control-detail th.paymentverify-header-ExtOccurDate{
+    min-width: 75px;
+}
+.control-paymentverify-containernew .control-detail th.paymentverify-header-rowIndex,
+.verficationnew.control-detail th.paymentverify-header-rowIndex{
+    min-width: 30px;
+}
+.verficationnew.control-detail th{
+    min-width: 80px;
+}
+.control-detail .amount{
+    width: 50px;
+}
+.control-detail .remark{
+    width: 75px;
+    margin: 0 10px;
+}
+.control-detail .ExtOccurDate{
+    width: 75px;
+    margin: 0 10px;
+    background-position: right -1005px!important;
+}
+.control-detail select{
+    width: 70px;
+}
+.control-paymentverify-containernew  .paymentverify-check{
+    padding: 0 20px;
+    text-indent: 0;
+    height: 26px;
+    text-align: center;
+    border: none;
+    color: #FFF;
+    background: #47C7EA;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 3px;
+    font-weight: bold;
+    line-height: 26px;
+    display: inline-block;
+    margin-left: 33px;
+}
+.control-paymentverify-list td{
+    text-align: center;
+}
+/*新版费用核销样式 end*/
+/*新版直接核销控件添加样式start*/
+.bucost-v2  select{
+    width: 280px;
+}
+.bucost-v2 .control-buCost-container input{
+    width: 280px;
+}
+.bucost-v2 .control-buCost-container .control-buCost-name{
+    background-position: right -1004px!important;
+}
+.bucost-v2 .control-operation-data{
+    width: 37%;
+}
+.bucost-v2 .buCost-item-budgetName{
+    width: 130px;
+}
+.bucost-v2  .buCost-item-detailName{
+    width: 130px;
+    margin-left: 20px;
+}
+.bucost-v2 .control-buCost-container .buCost-item-amount{
+    width: 128px;
+    margin-right: 20px;
+}
+.bucost-v2  .buCost-currency{
+
+}
+.bucost-v2 .control-detail th{
+    min-width: 50px;
+    white-space: nowrap;
+}
+.control-operate .buCost-item-currency{
+    width: 130px;
+    margin-left: 20px;
+}
+
+/*新版直接核销控件添加样式end*/

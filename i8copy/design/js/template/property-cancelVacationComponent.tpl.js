@@ -1,0 +1,1 @@
+define("./js/template/property-cancelVacationComponent.tpl", [], "");
